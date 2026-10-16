@@ -1,0 +1,17 @@
+BELIEF HEATMAP (final)
+  Intensity scale: ' '=low  '@'=high
+   0123456789
+   ----------
+ 0|          
+ 1|          
+ 2|          
+ 3|          
+ 4|          
+ 5|          
+ 6|          
+ 7|          
+ 8|       @  
+ 9|          
+
+  min=0.000001  max=0.999901
+Belief intensity (low->high): .  :  -  =  +  *  #  %  @

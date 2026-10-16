@@ -1,0 +1,23 @@
+   012345678901234
+   ---------------
+ 0|**             
+ 1| **   #     ***
+ 2|  R***#  ***C#C
+ 3| ##  C***C    *
+ 4|          # C**
+ 5|        #   ** 
+ 6|        #   #* 
+ 7|   ##  R     C 
+ 8|    #      # * 
+ 9|         #   * 
+10|             * 
+11|            &* 
+12|               
+13|             R 
+14|               
+
+Legend:
+  @=Agent (final pos)   &=Agent on EVE   E=EVE(found)
+  *=Visited   C=Clue discovered   D=Decoy ruled out
+  R=Recharge   #=Obstacle   .=Empty
+Belief intensity (low->high): .  :  -  =  +  *  #  %  @

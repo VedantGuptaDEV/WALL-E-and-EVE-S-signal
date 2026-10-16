@@ -1,0 +1,383 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.13.15, pytest-8.2.2, pluggy-1.6.0 -- C:\Users\Vedant Gupta\AppData\Local\Programs\Python\Python313\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\Vedant Gupta\Desktop\Vit Academics\wall E\WALL-E-and-EVE-S-signal\wall-e-eve-signal
+plugins: anyio-4.14.2, asyncio-0.23.7
+asyncio: mode=Mode.STRICT
+collecting ... collected 122 items
+
+tests/test_agent.py::TestAgentRunsWithoutCrash::test_easy_config_no_exception PASSED [  0%]
+tests/test_agent.py::TestAgentRunsWithoutCrash::test_minimal_config_no_exception PASSED [  1%]
+tests/test_agent.py::TestAgentRunsWithoutCrash::test_config_with_sensor_noise_no_exception PASSED [  2%]
+tests/test_agent.py::TestAgentTerminates::test_run_returns_dict PASSED   [  3%]
+tests/test_agent.py::TestAgentTerminates::test_run_has_found_eve_key PASSED [  4%]
+tests/test_agent.py::TestAgentTerminates::test_run_has_steps_key PASSED  [  4%]
+tests/test_agent.py::TestAgentTerminates::test_run_has_battery_remaining_key PASSED [  5%]
+tests/test_agent.py::TestAgentTerminates::test_found_eve_is_bool PASSED  [  6%]
+tests/test_agent.py::TestAgentTerminates::test_steps_is_non_negative_int PASSED [  7%]
+tests/test_agent.py::TestAgentTerminates::test_battery_remaining_non_negative PASSED [  8%]
+tests/test_agent.py::TestAgentTerminates::test_env_is_done_after_run PASSED [  9%]
+tests/test_agent.py::TestAgentRespectsBatterySafety::test_battery_never_below_zero PASSED [  9%]
+tests/test_agent.py::TestAgentRespectsBatterySafety::test_safety_reserve_respected_with_station PASSED [ 10%]
+tests/test_agent.py::TestAgentRespectsBatterySafety::test_battery_never_negative_hard_scenario PASSED [ 11%]
+tests/test_agent.py::TestAgentProducesTrace::test_logger_has_at_least_one_step PASSED [ 12%]
+tests/test_agent.py::TestAgentProducesTrace::test_logger_entries_have_step_key PASSED [ 13%]
+tests/test_agent.py::TestAgentProducesTrace::test_logger_entries_have_action_key PASSED [ 13%]
+tests/test_agent.py::TestAgentProducesTrace::test_logger_entries_have_belief_summary PASSED [ 14%]
+tests/test_agent.py::TestAgentProducesTrace::test_trace_steps_are_sequential PASSED [ 15%]
+tests/test_agent.py::TestAgentProducesTrace::test_easy_config_produces_trace PASSED [ 16%]
+tests/test_agent.py::TestHardConfigExploresAndUpdatesBelief::test_agent_visits_more_than_one_quadrant PASSED [ 17%]
+tests/test_agent.py::TestHardConfigExploresAndUpdatesBelief::test_belief_top_cell_changes_after_empty_scan FAILED [ 18%]
+tests/test_agent.py::TestClueCellsOnMap::test_clue_symbol_present_when_clues_discovered PASSED [ 18%]
+tests/test_agent.py::TestClueCellsOnMap::test_clue_positions_match_rendered_map PASSED [ 19%]
+tests/test_agent.py::TestClueCellsOnMap::test_hard_config_clues_on_map PASSED [ 20%]
+tests/test_agent.py::TestClueCellsOnMap::test_decoy_symbol_appears_when_decoys_discovered PASSED [ 21%]
+tests/test_agent.py::TestBeliefHeatmapFileCreated::test_belief_file_created_easy PASSED [ 22%]
+tests/test_agent.py::TestBeliefHeatmapFileCreated::test_belief_file_created_hard PASSED [ 22%]
+tests/test_agent.py::TestBeliefHeatmapFileCreated::test_belief_file_contains_heatmap_title PASSED [ 23%]
+tests/test_agent.py::TestBeliefHeatmapFileCreated::test_belief_file_contains_intensity_legend PASSED [ 24%]
+tests/test_agent.py::TestBeliefHeatmapFileCreated::test_belief_file_non_empty PASSED [ 25%]
+tests/test_agent.py::TestBeliefHeatmapFileCreated::test_snapshot_files_created_on_strategy_change PASSED [ 26%]
+tests/test_agent.py::TestAgentMarkerAtFinalPosition::test_agent_marker_present PASSED [ 27%]
+tests/test_agent.py::TestAgentMarkerAtFinalPosition::test_combined_marker_when_found_eve PASSED [ 27%]
+tests/test_agent.py::TestAgentMarkerAtFinalPosition::test_agent_marker_at_correct_cell PASSED [ 28%]
+tests/test_agent.py::TestAgentMarkerAtFinalPosition::test_hard_config_agent_marker_present PASSED [ 29%]
+tests/test_agent.py::TestAgentMarkerAtFinalPosition::test_legend_contains_agent_marker_description PASSED [ 30%]
+tests/test_belief.py::TestInitializationSumsToOne::test_direction_signal_sums_to_one PASSED [ 31%]
+tests/test_belief.py::TestInitializationSumsToOne::test_all_directions_sum_to_one PASSED [ 31%]
+tests/test_belief.py::TestInitializationSumsToOne::test_coordinate_signal_sums_to_one PASSED [ 32%]
+tests/test_belief.py::TestInitializationSumsToOne::test_all_values_non_negative PASSED [ 33%]
+tests/test_belief.py::TestUpdateFromScanIncreasesProbability::test_directed_scan_boosts_target_direction PASSED [ 34%]
+tests/test_belief.py::TestUpdateFromScanIncreasesProbability::test_eve_detected_boosts_local_area PASSED [ 35%]
+tests/test_belief.py::TestNegativeUpdateDecreasesProbability::test_scanned_area_decreases_after_empty_scan PASSED [ 36%]
+tests/test_belief.py::TestNegativeUpdateDecreasesProbability::test_update_negative_reduces_visited_area PASSED [ 36%]
+tests/test_belief.py::TestNegativeUpdateDecreasesProbability::test_grid_remains_normalised_after_negative_update PASSED [ 37%]
+tests/test_belief.py::TestEntropyDecreaseWithCertainty::test_concentrated_belief_lower_entropy PASSED [ 38%]
+tests/test_belief.py::TestEntropyDecreaseWithCertainty::test_uniform_distribution_has_max_entropy PASSED [ 39%]
+tests/test_belief.py::TestEntropyDecreaseWithCertainty::test_entropy_after_clue_update_decreases PASSED [ 40%]
+tests/test_belief.py::TestTopCellsReturnsSorted::test_top_cells_sorted_descending PASSED [ 40%]
+tests/test_belief.py::TestTopCellsReturnsSorted::test_top_cells_returns_requested_count PASSED [ 41%]
+tests/test_belief.py::TestTopCellsReturnsSorted::test_top_cells_all_probabilities_positive PASSED [ 42%]
+tests/test_belief.py::TestTopCellsReturnsSorted::test_top_cells_highest_prob_is_max PASSED [ 43%]
+tests/test_belief.py::TestTopCellsReturnsSorted::test_top_cells_positions_are_valid PASSED [ 44%]
+tests/test_config.py::TestLoadEasyConfig::test_returns_config_instance PASSED [ 45%]
+tests/test_config.py::TestLoadEasyConfig::test_map_dimensions PASSED     [ 45%]
+tests/test_config.py::TestLoadEasyConfig::test_map_seed PASSED           [ 46%]
+tests/test_config.py::TestLoadEasyConfig::test_map_obstacles PASSED      [ 47%]
+tests/test_config.py::TestLoadEasyConfig::test_eve_position PASSED       [ 48%]
+tests/test_config.py::TestLoadEasyConfig::test_initial_signal_direction PASSED [ 49%]
+tests/test_config.py::TestLoadEasyConfig::test_initial_signal_strength PASSED [ 50%]
+tests/test_config.py::TestLoadEasyConfig::test_initial_signal_timestamp PASSED [ 50%]
+tests/test_config.py::TestLoadEasyConfig::test_battery PASSED            [ 51%]
+tests/test_config.py::TestLoadEasyConfig::test_time_limit PASSED         [ 52%]
+tests/test_config.py::TestLoadEasyConfig::test_move_cost PASSED          [ 53%]
+tests/test_config.py::TestLoadEasyConfig::test_scan_cost PASSED          [ 54%]
+tests/test_config.py::TestLoadEasyConfig::test_recharge_cost PASSED      [ 54%]
+tests/test_config.py::TestLoadEasyConfig::test_recharge_amount PASSED    [ 55%]
+tests/test_config.py::TestLoadEasyConfig::test_recharge_stations PASSED  [ 56%]
+tests/test_config.py::TestLoadEasyConfig::test_clues_is_list PASSED      [ 57%]
+tests/test_config.py::TestLoadEasyConfig::test_clue_types PASSED         [ 58%]
+tests/test_config.py::TestLoadEasyConfig::test_sensor_noise PASSED       [ 59%]
+tests/test_config.py::TestLoadEasyConfig::test_decoys_empty PASSED       [ 59%]
+tests/test_config.py::TestLoadHardConfig::test_returns_config_instance PASSED [ 60%]
+tests/test_config.py::TestLoadHardConfig::test_map_dimensions PASSED     [ 61%]
+tests/test_config.py::TestLoadHardConfig::test_map_seed PASSED           [ 62%]
+tests/test_config.py::TestLoadHardConfig::test_map_has_many_obstacles PASSED [ 63%]
+tests/test_config.py::TestLoadHardConfig::test_eve_position PASSED       [ 63%]
+tests/test_config.py::TestLoadHardConfig::test_initial_signal_direction PASSED [ 64%]
+tests/test_config.py::TestLoadHardConfig::test_initial_signal_strength PASSED [ 65%]
+tests/test_config.py::TestLoadHardConfig::test_battery PASSED            [ 66%]
+tests/test_config.py::TestLoadHardConfig::test_time_limit PASSED         [ 67%]
+tests/test_config.py::TestLoadHardConfig::test_clues_is_seed PASSED      [ 68%]
+tests/test_config.py::TestLoadHardConfig::test_sensor_noise PASSED       [ 68%]
+tests/test_config.py::TestLoadHardConfig::test_decoys PASSED             [ 69%]
+tests/test_config.py::TestMissingRequiredField::test_raises_value_error_when_map_missing PASSED [ 70%]
+tests/test_config.py::TestMissingRequiredField::test_raises_value_error_when_initial_signal_missing PASSED [ 71%]
+tests/test_config.py::TestMissingRequiredField::test_raises_value_error_when_resources_missing PASSED [ 72%]
+tests/test_config.py::TestInvalidBattery::test_zero_battery_raises PASSED [ 72%]
+tests/test_config.py::TestInvalidBattery::test_negative_battery_raises PASSED [ 73%]
+tests/test_config.py::TestInvalidBattery::test_positive_battery_accepted PASSED [ 74%]
+tests/test_config.py::TestDefaultSensorNoise::test_default_is_zero PASSED [ 75%]
+tests/test_coordinates.py::TestEnvironmentCoordinates::test_eve_pos_matches_config PASSED [ 76%]
+tests/test_coordinates.py::TestEnvironmentCoordinates::test_agent_finds_eve_at_correct_cell PASSED [ 77%]
+tests/test_coordinates.py::TestBeliefCoordinates::test_collapse_on_found_spikes_correct_cell PASSED [ 77%]
+tests/test_coordinates.py::TestBeliefCoordinates::test_top_cells_returns_correct_xy PASSED [ 78%]
+tests/test_coordinates.py::TestVisualizerCoordinates::test_eve_marker_at_correct_row_and_column PASSED [ 79%]
+tests/test_coordinates.py::TestReportCoordinates::test_report_confirmed_pos_is_correct PASSED [ 80%]
+tests/test_coordinates.py::TestReportCoordinates::test_report_markdown_contains_correct_coords PASSED [ 81%]
+tests/test_coordinates.py::TestReportCoordinates::test_report_confidence_is_100_when_found PASSED [ 81%]
+tests/test_coordinates.py::TestSummaryCoordinates::test_eve_estimate_matches_confirmed_pos PASSED [ 82%]
+tests/test_coordinates.py::TestSummaryCoordinates::test_belief_top_cell_agrees_with_summary PASSED [ 83%]
+tests/test_environment.py::TestMoveNorth::test_move_north_decreases_battery PASSED [ 84%]
+tests/test_environment.py::TestMoveNorth::test_move_north_changes_y_when_not_blocked PASSED [ 85%]
+tests/test_environment.py::TestMoveNorth::test_step_increments_by_one PASSED [ 86%]
+tests/test_environment.py::TestMoveBlockedByObstacle::test_agent_stays_when_blocked PASSED [ 86%]
+tests/test_environment.py::TestMoveBlockedByObstacle::test_event_contains_blocked PASSED [ 87%]
+tests/test_environment.py::TestMoveBlockedByObstacle::test_battery_still_deducted_when_blocked PASSED [ 88%]
+tests/test_environment.py::TestScanReturnsObservation::test_observation_has_required_keys PASSED [ 89%]
+tests/test_environment.py::TestScanReturnsObservation::test_scan_result_has_required_keys PASSED [ 90%]
+tests/test_environment.py::TestScanReturnsObservation::test_clue_strength_is_float PASSED [ 90%]
+tests/test_environment.py::TestScanReturnsObservation::test_clue_strength_in_range PASSED [ 91%]
+tests/test_environment.py::TestScanReturnsObservation::test_event_contains_scan PASSED [ 92%]
+tests/test_environment.py::TestScanReturnsObservation::test_scan_deducts_battery PASSED [ 93%]
+tests/test_environment.py::TestRechargeOnStation::test_battery_increases_when_on_station PASSED [ 94%]
+tests/test_environment.py::TestRechargeOnStation::test_recharge_capped_at_max_battery PASSED [ 95%]
+tests/test_environment.py::TestRechargeOnStation::test_recharge_fails_off_station PASSED [ 95%]
+tests/test_environment.py::TestBatteryDepletionEndsEpisode::test_done_true_when_battery_zero PASSED [ 96%]
+tests/test_environment.py::TestBatteryDepletionEndsEpisode::test_terminal_event_mentions_battery PASSED [ 97%]
+tests/test_environment.py::TestEveNotExposed::test_scan_obs_has_no_eve_pos_key PASSED [ 98%]
+tests/test_environment.py::TestEveNotExposed::test_move_obs_has_no_eve_pos_key PASSED [ 99%]
+tests/test_environment.py::TestEveNotExposed::test_recharge_obs_has_no_eve_pos_key PASSED [100%]
+
+================================== FAILURES ===================================
+_ TestHardConfigExploresAndUpdatesBelief.test_belief_top_cell_changes_after_empty_scan _
+tests\test_agent.py:370: in test_belief_top_cell_changes_after_empty_scan
+    assert len(violations) == 0, (
+E   AssertionError: Agent kept targeting already-scanned empty cells:
+E     Step 26: empty scan near top cell (9, 0) (agent at [12, 0], dist=3), but top cell did not change in next 5 steps.
+E   assert 1 == 0
+E    +  where 1 = len(['Step 26: empty scan near top cell (9, 0) (agent at [12, 0], dist=3), but top cell did not change in next 5 steps.'])
+---------------------------- Captured stdout call -----------------------------
+
+============================================================
+STEP 1 DIAGNOSTIC  agent=(0,0)  battery=220/220  entropy=5.235
+  Top-3 belief cells:
+    #1: (14,14) p=0.009793  bfs=28  mass_r2=0.0820
+    #2: (14,13) p=0.009793  bfs=27  mass_r2=0.1094
+    #3: (14,12) p=0.009793  bfs=26  mass_r2=0.1367
+  Locked target: (14,14) p=0.009793  bfs=28
+  Move scores:
+    N -> ( 0,-1): BLOCKED
+    S -> ( 0, 1): info=0.0239  bfs=1  info/step=0.0239  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.15  TOTAL=0.0286
+    E -> ( 1, 0): info=0.0240  bfs=1  info/step=0.0240  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.15  TOTAL=0.0288
+    W -> (-1, 0): BLOCKED
+    SCAN from ( 0, 0): p_nearby=0.0179  battery_frac=1.000  overdue=True  TOTAL=0.3679
+  >> CHOSEN: scan  score=0.3679
+============================================================
+
+============================================================
+STEP 2 DIAGNOSTIC  agent=(0,0)  battery=212/220  entropy=5.226
+  Top-3 belief cells:
+    #1: (14,14) p=0.009865  bfs=28  mass_r2=0.0826
+    #2: (14,13) p=0.009865  bfs=27  mass_r2=0.1102
+    #3: (14,12) p=0.009865  bfs=26  mass_r2=0.1377
+  Locked target: (14,14) p=0.009865  bfs=28
+  Move scores:
+    N -> ( 0,-1): BLOCKED
+    S -> ( 0, 1): info=0.0166  bfs=1  info/step=0.0166  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.15  TOTAL=0.0192
+    E -> ( 1, 0): info=0.0168  bfs=1  info/step=0.0168  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.15  TOTAL=0.0194
+    W -> (-1, 0): BLOCKED
+    SCAN from ( 0, 0): p_nearby=0.0106  battery_frac=0.964  overdue=False  TOTAL=0.0102
+  >> CHOSEN: E  score=0.0194
+============================================================
+
+============================================================
+STEP 3 DIAGNOSTIC  agent=(1,0)  battery=209/220  entropy=5.217
+  Top-3 belief cells:
+    #1: (14,14) p=0.009906  bfs=27  mass_r2=0.0830
+    #2: (14,13) p=0.009906  bfs=26  mass_r2=0.1106
+    #3: (14,12) p=0.009906  bfs=25  mass_r2=0.1383
+  Locked target: (14,14) p=0.009906  bfs=27
+  Move scores:
+    N -> ( 1,-1): BLOCKED
+    S -> ( 1, 1): info=0.0208  bfs=1  info/step=0.0208  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.15  TOTAL=0.0237
+    E -> ( 2, 0): info=0.0192  bfs=1  info/step=0.0192  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.15  TOTAL=0.0219
+    W -> ( 0, 0): prev_pos_penalty  score=-0.5000
+    SCAN from ( 1, 0): p_nearby=0.0127  battery_frac=0.950  overdue=False  TOTAL=0.0121
+  >> CHOSEN: S  score=0.0237
+============================================================
+
+============================================================
+STEP 4 DIAGNOSTIC  agent=(1,1)  battery=206/220  entropy=5.209
+  Top-3 belief cells:
+    #1: (14,14) p=0.009941  bfs=26  mass_r2=0.0833
+    #2: (14,13) p=0.009941  bfs=25  mass_r2=0.1110
+    #3: (14,12) p=0.009941  bfs=24  mass_r2=0.1388
+  Locked target: (14,14) p=0.009941  bfs=26
+  Move scores:
+    N -> ( 1, 0): prev_pos_penalty  score=-0.5000
+    S -> ( 1, 2): info=0.0255  bfs=1  info/step=0.0255  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.15  TOTAL=0.0286
+    E -> ( 2, 1): info=0.0260  bfs=1  info/step=0.0260  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.15  TOTAL=0.0292
+    W -> ( 0, 1): info=0.0090  bfs=1  info/step=0.0090  dir_bonus=0.85  revisit×0(pen=0.00)  explore=0.15  low_belief=0.15  TOTAL=0.0072
+    SCAN from ( 1, 1): p_nearby=0.0173  battery_frac=0.936  overdue=False  TOTAL=0.0162
+  >> CHOSEN: E  score=0.0292
+============================================================
+
+============================================================
+STEP 5 DIAGNOSTIC  agent=(2,1)  battery=203/220  entropy=5.202
+  Top-3 belief cells:
+    #1: (14,14) p=0.009983  bfs=25  mass_r2=0.0836
+    #2: (14,13) p=0.009983  bfs=24  mass_r2=0.1115
+    #3: (14,12) p=0.009983  bfs=23  mass_r2=0.1393
+  Locked target: (14,14) p=0.009983  bfs=25
+  Move scores:
+    N -> ( 2, 0): info=0.0116  bfs=1  info/step=0.0116  dir_bonus=0.85  revisit×0(pen=0.00)  explore=0.15  low_belief=0.15  TOTAL=0.0091
+    S -> ( 2, 2): info=0.0323  bfs=1  info/step=0.0323  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.15  TOTAL=0.0357
+    E -> ( 3, 1): info=0.0281  bfs=1  info/step=0.0281  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.15  TOTAL=0.0311
+    W -> ( 1, 1): prev_pos_penalty  score=-0.5000
+    SCAN from ( 2, 1): p_nearby=0.0219  battery_frac=0.923  overdue=False  TOTAL=0.0202
+  >> CHOSEN: S  score=0.0357
+============================================================
+
+============================================================
+STEP 6 DIAGNOSTIC  agent=(2,2)  battery=200/220  entropy=5.194
+  Top-3 belief cells:
+    #1: (14,14) p=0.010028  bfs=24  mass_r2=0.0840
+    #2: (14,13) p=0.010028  bfs=23  mass_r2=0.1120
+    #3: (14,12) p=0.010028  bfs=22  mass_r2=0.1400
+  Locked target: (14,14) p=0.010028  bfs=24
+  Move scores:
+    N -> ( 2, 1): prev_pos_penalty  score=-0.5000
+    S -> ( 2, 3): BLOCKED
+    E -> ( 3, 2): info=0.0343  bfs=1  info/step=0.0343  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.00  TOTAL=0.1874
+    W -> ( 1, 2): info=0.0169  bfs=1  info/step=0.0169  dir_bonus=0.85  revisit×0(pen=0.00)  explore=0.15  low_belief=0.15  TOTAL=0.0131
+    SCAN from ( 2, 2): p_nearby=0.0278  battery_frac=0.909  overdue=True  TOTAL=0.3778
+  >> CHOSEN: scan  score=0.3778
+============================================================
+
+============================================================
+STEP 7 DIAGNOSTIC  agent=(2,2)  battery=192/220  entropy=5.178
+  Top-3 belief cells:
+    #1: (14,14) p=0.010145  bfs=24  mass_r2=0.0850
+    #2: (14,13) p=0.010145  bfs=23  mass_r2=0.1133
+    #3: (14,12) p=0.010145  bfs=22  mass_r2=0.1416
+  Locked target: (14,14) p=0.010145  bfs=24
+  Move scores:
+    N -> ( 2, 1): prev_pos_penalty  score=-0.5000
+    S -> ( 2, 3): BLOCKED
+    E -> ( 3, 2): info=0.0253  bfs=1  info/step=0.0253  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.15  TOTAL=0.0265
+    W -> ( 1, 2): info=0.0101  bfs=1  info/step=0.0101  dir_bonus=0.85  revisit×0(pen=0.00)  explore=0.15  low_belief=0.15  TOTAL=0.0075
+    SCAN from ( 2, 2): p_nearby=0.0165  battery_frac=0.873  overdue=False  TOTAL=0.0144
+  >> CHOSEN: E  score=0.0265
+============================================================
+
+============================================================
+STEP 8 DIAGNOSTIC  agent=(3,2)  battery=189/220  entropy=5.171
+  Top-3 belief cells:
+    #1: (14,14) p=0.010176  bfs=23  mass_r2=0.0852
+    #2: (14,13) p=0.010176  bfs=22  mass_r2=0.1136
+    #3: (14,12) p=0.010176  bfs=21  mass_r2=0.1420
+  Locked target: (14,14) p=0.010176  bfs=23
+  Move scores:
+    N -> ( 3, 1): info=0.0150  bfs=1  info/step=0.0150  dir_bonus=0.85  revisit×0(pen=0.00)  explore=0.15  low_belief=0.15  TOTAL=0.0109
+    S -> ( 3, 3): info=0.0288  bfs=1  info/step=0.0288  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.15  TOTAL=0.0297
+    E -> ( 4, 2): info=0.0338  bfs=1  info/step=0.0338  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.00  TOTAL=0.1849
+    W -> ( 2, 2): prev_pos_penalty  score=-0.5000
+    SCAN from ( 3, 2): p_nearby=0.0223  battery_frac=0.859  overdue=False  TOTAL=0.0192
+  >> CHOSEN: E  score=0.1849
+============================================================
+
+============================================================
+STEP 9 DIAGNOSTIC  agent=(4,2)  battery=186/220  entropy=5.162
+  Top-3 belief cells:
+    #1: (14,14) p=0.010228  bfs=22  mass_r2=0.0857
+    #2: (14,13) p=0.010228  bfs=21  mass_r2=0.1142
+    #3: (14,12) p=0.010228  bfs=20  mass_r2=0.1428
+  Locked target: (14,14) p=0.010228  bfs=22
+  Move scores:
+    N -> ( 4, 1): info=0.0200  bfs=1  info/step=0.0200  dir_bonus=0.85  revisit×0(pen=0.00)  explore=0.15  low_belief=0.15  TOTAL=0.0144
+    S -> ( 4, 3): info=0.0333  bfs=1  info/step=0.0333  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.15  TOTAL=0.0338
+    E -> ( 5, 2): info=0.0431  bfs=1  info/step=0.0431  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.00  TOTAL=0.1937
+    W -> ( 3, 2): prev_pos_penalty  score=-0.5000
+    SCAN from ( 4, 2): p_nearby=0.0289  battery_frac=0.845  overdue=False  TOTAL=0.0244
+  >> CHOSEN: E  score=0.1937
+============================================================
+
+============================================================
+STEP 10 DIAGNOSTIC  agent=(5,2)  battery=183/220  entropy=5.152
+  Top-3 belief cells:
+    #1: (14,14) p=0.010297  bfs=21  mass_r2=0.0862
+    #2: (14,13) p=0.010297  bfs=20  mass_r2=0.1150
+    #3: (14,12) p=0.010297  bfs=19  mass_r2=0.1437
+  Locked target: (14,14) p=0.010297  bfs=21
+  Move scores:
+    N -> ( 5, 1): info=0.0257  bfs=1  info/step=0.0257  dir_bonus=0.85  revisit×0(pen=0.00)  explore=0.15  low_belief=0.15  TOTAL=0.0182
+    S -> ( 5, 3): info=0.0391  bfs=1  info/step=0.0391  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.00  TOTAL=0.1890
+    E -> ( 6, 2): BLOCKED
+    W -> ( 4, 2): prev_pos_penalty  score=-0.5000
+    SCAN from ( 5, 2): p_nearby=0.0366  battery_frac=0.832  overdue=False  TOTAL=0.0305
+  >> CHOSEN: S  score=0.1890
+============================================================
+
+============================================================
+STEP 11 DIAGNOSTIC  agent=(5,3)  battery=180/220  entropy=5.143
+  Top-3 belief cells:
+    #1: (14,14) p=0.010352  bfs=20  mass_r2=0.0867
+    #2: (14,13) p=0.010352  bfs=19  mass_r2=0.1156
+    #3: (14,12) p=0.010352  bfs=18  mass_r2=0.1445
+  Locked target: (14,14) p=0.010352  bfs=20
+  Move scores:
+    N -> ( 5, 2): prev_pos_penalty  score=-0.5000
+    S -> ( 5, 4): info=0.0413  bfs=1  info/step=0.0413  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.00  TOTAL=0.1906
+    E -> ( 6, 3): info=0.0500  bfs=1  info/step=0.0500  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.00  TOTAL=0.1991
+    W -> ( 4, 3): info=0.0216  bfs=1  info/step=0.0216  dir_bonus=0.85  revisit×0(pen=0.00)  explore=0.15  low_belief=0.15  TOTAL=0.0150
+    SCAN from ( 5, 3): p_nearby=0.0340  battery_frac=0.818  overdue=True  TOTAL=0.3840
+  >> CHOSEN: scan  score=0.3840
+============================================================
+
+============================================================
+STEP 12 DIAGNOSTIC  agent=(5,3)  battery=172/220  entropy=5.141
+  Top-3 belief cells:
+    #1: (14, 0) p=0.012768  bfs=12  mass_r2=0.1010
+    #2: (13, 0) p=0.012433  bfs=11  mass_r2=0.1289
+    #3: (14, 1) p=0.011805  bfs=11  mass_r2=0.1280
+  Locked target: (14,0) p=0.012768  bfs=12
+  Move scores:
+    N -> ( 5, 2): prev_pos_penalty  score=-0.5000
+    S -> ( 5, 4): info=0.0410  bfs=1  info/step=0.0410  dir_bonus=0.85  revisit×0(pen=0.00)  explore=0.15  low_belief=0.00  TOTAL=0.1772
+    E -> ( 6, 3): info=0.0578  bfs=1  info/step=0.0578  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.00  TOTAL=0.2042
+    W -> ( 4, 3): info=0.0232  bfs=1  info/step=0.0232  dir_bonus=0.85  revisit×0(pen=0.00)  explore=0.15  low_belief=0.15  TOTAL=0.0154
+    SCAN from ( 5, 3): p_nearby=0.0391  battery_frac=0.782  overdue=False  TOTAL=0.0306
+  >> CHOSEN: E  score=0.2042
+============================================================
+
+============================================================
+STEP 13 DIAGNOSTIC  agent=(6,3)  battery=169/220  entropy=5.131
+  Top-3 belief cells:
+    #1: (14, 0) p=0.012868  bfs=11  mass_r2=0.1018
+    #2: (13, 0) p=0.012531  bfs=10  mass_r2=0.1299
+    #3: (14, 1) p=0.011898  bfs=10  mass_r2=0.1290
+  Locked target: (14,0) p=0.012868  bfs=11
+  Move scores:
+    N -> ( 6, 2): BLOCKED
+    S -> ( 6, 4): info=0.0479  bfs=1  info/step=0.0479  dir_bonus=0.85  revisit×0(pen=0.00)  explore=0.15  low_belief=0.00  TOTAL=0.1813
+    E -> ( 7, 3): info=0.0741  bfs=1  info/step=0.0741  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.00  TOTAL=0.2183
+    W -> ( 5, 3): prev_pos_penalty  score=-0.5000
+    SCAN from ( 6, 3): p_nearby=0.0504  battery_frac=0.768  overdue=False  TOTAL=0.0387
+  >> CHOSEN: E  score=0.2183
+============================================================
+
+============================================================
+STEP 14 DIAGNOSTIC  agent=(7,3)  battery=166/220  entropy=5.120
+  Top-3 belief cells:
+    #1: (14, 0) p=0.013003  bfs=10  mass_r2=0.1029
+    #2: (13, 0) p=0.012662  bfs=9  mass_r2=0.1313
+    #3: (14, 1) p=0.012022  bfs=9  mass_r2=0.1304
+  Locked target: (14,0) p=0.013003  bfs=10
+  Move scores:
+    N -> ( 7, 2): info=0.0792  bfs=1  info/step=0.0792  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.00  TOTAL=0.2217
+    S -> ( 7, 4): info=0.0578  bfs=1  info/step=0.0578  dir_bonus=0.85  revisit×0(pen=0.00)  explore=0.15  low_belief=0.00  TOTAL=0.1870
+    E -> ( 8, 3): info=0.0930  bfs=1  info/step=0.0930  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.00  TOTAL=0.2343
+    W -> ( 6, 3): prev_pos_penalty  score=-0.5000
+    SCAN from ( 7, 3): p_nearby=0.0644  battery_frac=0.755  overdue=False  TOTAL=0.0486
+  >> CHOSEN: E  score=0.2343
+============================================================
+
+============================================================
+STEP 15 DIAGNOSTIC  agent=(8,3)  battery=163/220  entropy=5.107
+  Top-3 belief cells:
+    #1: (14, 0) p=0.013171  bfs=9  mass_r2=0.1042
+    #2: (13, 0) p=0.012826  bfs=8  mass_r2=0.1330
+    #3: (14, 1) p=0.012177  bfs=8  mass_r2=0.1321
+  Locked target: (14,0) p=0.013171  bfs=9
+  Move scores:
+    N -> ( 8, 2): info=0.0968  bfs=1  info/step=0.0968  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.00  TOTAL=0.2361
+    S -> ( 8, 4): info=0.0712  bfs=1  info/step=0.0712  dir_bonus=0.85  revisit×0(pen=0.00)  explore=0.15  low_belief=0.00  TOTAL=0.1949
+    E -> ( 9, 3): info=0.1150  bfs=1  info/step=0.1150  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.00  TOTAL=0.2523
+    W -> ( 7, 3): prev_pos_penalty  score=-0.5000
+    SCAN from ( 8, 3): p_nearby=0.0813  battery_frac=0.741  overdue=False  TOTAL=0.0603
+  >> CHOSEN: E  score=0.2523
+============================================================
+=========================== short test summary info ===========================
+FAILED tests/test_agent.py::TestHardConfigExploresAndUpdatesBelief::test_belief_top_cell_changes_after_empty_scan
+======================== 1 failed, 121 passed in 2.23s ========================

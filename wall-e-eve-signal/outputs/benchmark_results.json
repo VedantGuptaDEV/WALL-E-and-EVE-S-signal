@@ -1,0 +1,81 @@
+{
+  "config": "configs/sample_easy.yaml",
+  "base_seed": 42,
+  "num_runs": 10,
+  "success_rate": 1.0,
+  "avg_steps": 46.0,
+  "avg_battery_remaining": 31.0,
+  "avg_confidence": 1.0,
+  "runs": [
+    {
+      "seed": 42,
+      "found_eve": true,
+      "steps": 46,
+      "battery_remaining": 31,
+      "confidence": 1.0
+    },
+    {
+      "seed": 43,
+      "found_eve": true,
+      "steps": 46,
+      "battery_remaining": 31,
+      "confidence": 1.0
+    },
+    {
+      "seed": 44,
+      "found_eve": true,
+      "steps": 46,
+      "battery_remaining": 31,
+      "confidence": 1.0
+    },
+    {
+      "seed": 45,
+      "found_eve": true,
+      "steps": 46,
+      "battery_remaining": 31,
+      "confidence": 1.0
+    },
+    {
+      "seed": 46,
+      "found_eve": true,
+      "steps": 46,
+      "battery_remaining": 31,
+      "confidence": 1.0
+    },
+    {
+      "seed": 47,
+      "found_eve": true,
+      "steps": 46,
+      "battery_remaining": 31,
+      "confidence": 1.0
+    },
+    {
+      "seed": 48,
+      "found_eve": true,
+      "steps": 46,
+      "battery_remaining": 31,
+      "confidence": 1.0
+    },
+    {
+      "seed": 49,
+      "found_eve": true,
+      "steps": 46,
+      "battery_remaining": 31,
+      "confidence": 1.0
+    },
+    {
+      "seed": 50,
+      "found_eve": true,
+      "steps": 46,
+      "battery_remaining": 31,
+      "confidence": 1.0
+    },
+    {
+      "seed": 51,
+      "found_eve": true,
+      "steps": 46,
+      "battery_remaining": 31,
+      "confidence": 1.0
+    }
+  ]
+}

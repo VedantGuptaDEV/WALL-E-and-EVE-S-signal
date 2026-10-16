@@ -1,0 +1,1751 @@
+[
+  {
+    "step": 1,
+    "action": "scan",
+    "observation": {
+      "agent_pos": [
+        0,
+        0
+      ],
+      "battery": 145,
+      "time_remaining": 79,
+      "steps_taken": 1,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "scan"
+    },
+    "battery": 145,
+    "time_remaining": 79,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 6,
+          "y": 0,
+          "prob": 0.01882
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "prob": 0.018703
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "prob": 0.018106
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "prob": 0.017787
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "prob": 0.016743
+        }
+      ],
+      "entropy": 4.5659
+    },
+    "decision": "scan",
+    "reasoning": "Scanning from (0,0): entropy=4.585, nearby belief mass=0.093. [Scheduled scan interval reached.]"
+  },
+  {
+    "step": 2,
+    "action": "scan",
+    "observation": {
+      "agent_pos": [
+        0,
+        0
+      ],
+      "battery": 140,
+      "time_remaining": 78,
+      "steps_taken": 2,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "scan"
+    },
+    "battery": 140,
+    "time_remaining": 78,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 6,
+          "y": 0,
+          "prob": 0.01928
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "prob": 0.019161
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "prob": 0.018549
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "prob": 0.018223
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "prob": 0.017152
+        }
+      ],
+      "entropy": 4.5368
+    },
+    "decision": "scan",
+    "reasoning": "Scanning from (0,0): entropy=4.566, nearby belief mass=0.041. Scan beats all moves."
+  },
+  {
+    "step": 3,
+    "action": "scan",
+    "observation": {
+      "agent_pos": [
+        0,
+        0
+      ],
+      "battery": 135,
+      "time_remaining": 77,
+      "steps_taken": 3,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "scan"
+    },
+    "battery": 135,
+    "time_remaining": 77,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 6,
+          "y": 0,
+          "prob": 0.019478
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "prob": 0.019358
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "prob": 0.018739
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "prob": 0.01841
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "prob": 0.017328
+        }
+      ],
+      "entropy": 4.5155
+    },
+    "decision": "scan",
+    "reasoning": "Scanning from (0,0): entropy=4.537, nearby belief mass=0.017. Scan beats all moves."
+  },
+  {
+    "step": 4,
+    "action": "scan",
+    "observation": {
+      "agent_pos": [
+        0,
+        0
+      ],
+      "battery": 130,
+      "time_remaining": 76,
+      "steps_taken": 4,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "scan"
+    },
+    "battery": 130,
+    "time_remaining": 76,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 6,
+          "y": 0,
+          "prob": 0.019561
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "prob": 0.019441
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "prob": 0.018819
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "prob": 0.018488
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "prob": 0.017403
+        }
+      ],
+      "entropy": 4.5027
+    },
+    "decision": "scan",
+    "reasoning": "Scanning from (0,0): entropy=4.515, nearby belief mass=0.007. Scan beats all moves."
+  },
+  {
+    "step": 5,
+    "action": "scan",
+    "observation": {
+      "agent_pos": [
+        0,
+        0
+      ],
+      "battery": 125,
+      "time_remaining": 75,
+      "steps_taken": 5,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "scan"
+    },
+    "battery": 125,
+    "time_remaining": 75,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 6,
+          "y": 0,
+          "prob": 0.019596
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "prob": 0.019475
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "prob": 0.018853
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "prob": 0.018521
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "prob": 0.017433
+        }
+      ],
+      "entropy": 4.4959
+    },
+    "decision": "scan",
+    "reasoning": "Scanning from (0,0): entropy=4.503, nearby belief mass=0.003. Scan beats all moves."
+  },
+  {
+    "step": 6,
+    "action": "scan",
+    "observation": {
+      "agent_pos": [
+        0,
+        0
+      ],
+      "battery": 120,
+      "time_remaining": 74,
+      "steps_taken": 6,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "scan"
+    },
+    "battery": 120,
+    "time_remaining": 74,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 6,
+          "y": 0,
+          "prob": 0.019611
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "prob": 0.01949
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "prob": 0.018867
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "prob": 0.018535
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "prob": 0.017446
+        }
+      ],
+      "entropy": 4.4924
+    },
+    "decision": "scan",
+    "reasoning": "Scanning from (0,0): entropy=4.496, nearby belief mass=0.001. Scan beats all moves."
+  },
+  {
+    "step": 7,
+    "action": "scan",
+    "observation": {
+      "agent_pos": [
+        0,
+        0
+      ],
+      "battery": 115,
+      "time_remaining": 73,
+      "steps_taken": 7,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "scan"
+    },
+    "battery": 115,
+    "time_remaining": 73,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 6,
+          "y": 0,
+          "prob": 0.019617
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "prob": 0.019495
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "prob": 0.018873
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "prob": 0.018541
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "prob": 0.017452
+        }
+      ],
+      "entropy": 4.4906
+    },
+    "decision": "scan",
+    "reasoning": "Scanning from (0,0): entropy=4.492, nearby belief mass=0.001. Scan beats all moves."
+  },
+  {
+    "step": 8,
+    "action": "scan",
+    "observation": {
+      "agent_pos": [
+        0,
+        0
+      ],
+      "battery": 110,
+      "time_remaining": 72,
+      "steps_taken": 8,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "scan"
+    },
+    "battery": 110,
+    "time_remaining": 72,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 6,
+          "y": 0,
+          "prob": 0.019619
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "prob": 0.019498
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "prob": 0.018875
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "prob": 0.018543
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "prob": 0.017454
+        }
+      ],
+      "entropy": 4.4898
+    },
+    "decision": "scan",
+    "reasoning": "Scanning from (0,0): entropy=4.491, nearby belief mass=0.000. Scan beats all moves."
+  },
+  {
+    "step": 9,
+    "action": "scan",
+    "observation": {
+      "agent_pos": [
+        0,
+        0
+      ],
+      "battery": 105,
+      "time_remaining": 71,
+      "steps_taken": 9,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "scan"
+    },
+    "battery": 105,
+    "time_remaining": 71,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 6,
+          "y": 0,
+          "prob": 0.01962
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "prob": 0.019499
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "prob": 0.018876
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "prob": 0.018544
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "prob": 0.017455
+        }
+      ],
+      "entropy": 4.4894
+    },
+    "decision": "scan",
+    "reasoning": "Scanning from (0,0): entropy=4.490, nearby belief mass=0.000. Scan beats all moves."
+  },
+  {
+    "step": 10,
+    "action": "scan",
+    "observation": {
+      "agent_pos": [
+        0,
+        0
+      ],
+      "battery": 100,
+      "time_remaining": 70,
+      "steps_taken": 10,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "scan"
+    },
+    "battery": 100,
+    "time_remaining": 70,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 6,
+          "y": 0,
+          "prob": 0.019621
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "prob": 0.019499
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "prob": 0.018876
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "prob": 0.018544
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "prob": 0.017455
+        }
+      ],
+      "entropy": 4.4892
+    },
+    "decision": "scan",
+    "reasoning": "Scanning from (0,0): entropy=4.489, nearby belief mass=0.000. Scan beats all moves."
+  },
+  {
+    "step": 11,
+    "action": "scan",
+    "observation": {
+      "agent_pos": [
+        0,
+        0
+      ],
+      "battery": 95,
+      "time_remaining": 69,
+      "steps_taken": 11,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "scan"
+    },
+    "battery": 95,
+    "time_remaining": 69,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 6,
+          "y": 0,
+          "prob": 0.019621
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "prob": 0.0195
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "prob": 0.018877
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "prob": 0.018545
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "prob": 0.017455
+        }
+      ],
+      "entropy": 4.4892
+    },
+    "decision": "scan",
+    "reasoning": "Scanning from (0,0): entropy=4.489, nearby belief mass=0.000. Scan beats all moves."
+  },
+  {
+    "step": 12,
+    "action": "scan",
+    "observation": {
+      "agent_pos": [
+        0,
+        0
+      ],
+      "battery": 90,
+      "time_remaining": 68,
+      "steps_taken": 12,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "scan"
+    },
+    "battery": 90,
+    "time_remaining": 68,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 6,
+          "y": 0,
+          "prob": 0.019621
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "prob": 0.0195
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "prob": 0.018877
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "prob": 0.018545
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "prob": 0.017455
+        }
+      ],
+      "entropy": 4.4891
+    },
+    "decision": "scan",
+    "reasoning": "Scanning from (0,0): entropy=4.489, nearby belief mass=0.000. Scan beats all moves."
+  },
+  {
+    "step": 13,
+    "action": "scan",
+    "observation": {
+      "agent_pos": [
+        0,
+        0
+      ],
+      "battery": 85,
+      "time_remaining": 67,
+      "steps_taken": 13,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "scan"
+    },
+    "battery": 85,
+    "time_remaining": 67,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 6,
+          "y": 0,
+          "prob": 0.019621
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "prob": 0.0195
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "prob": 0.018877
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "prob": 0.018545
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "prob": 0.017455
+        }
+      ],
+      "entropy": 4.4891
+    },
+    "decision": "scan",
+    "reasoning": "Scanning from (0,0): entropy=4.489, nearby belief mass=0.000. Scan beats all moves."
+  },
+  {
+    "step": 14,
+    "action": "scan",
+    "observation": {
+      "agent_pos": [
+        0,
+        0
+      ],
+      "battery": 80,
+      "time_remaining": 66,
+      "steps_taken": 14,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "scan"
+    },
+    "battery": 80,
+    "time_remaining": 66,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 6,
+          "y": 0,
+          "prob": 0.019621
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "prob": 0.0195
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "prob": 0.018877
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "prob": 0.018545
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "prob": 0.017455
+        }
+      ],
+      "entropy": 4.4891
+    },
+    "decision": "scan",
+    "reasoning": "Scanning from (0,0): entropy=4.489, nearby belief mass=0.000. Scan beats all moves."
+  },
+  {
+    "step": 15,
+    "action": "scan",
+    "observation": {
+      "agent_pos": [
+        0,
+        0
+      ],
+      "battery": 75,
+      "time_remaining": 65,
+      "steps_taken": 15,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "scan"
+    },
+    "battery": 75,
+    "time_remaining": 65,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 6,
+          "y": 0,
+          "prob": 0.019621
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "prob": 0.0195
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "prob": 0.018877
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "prob": 0.018545
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "prob": 0.017455
+        }
+      ],
+      "entropy": 4.4891
+    },
+    "decision": "scan",
+    "reasoning": "Scanning from (0,0): entropy=4.489, nearby belief mass=0.000. Scan beats all moves."
+  },
+  {
+    "step": 16,
+    "action": "scan",
+    "observation": {
+      "agent_pos": [
+        0,
+        0
+      ],
+      "battery": 70,
+      "time_remaining": 64,
+      "steps_taken": 16,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "scan"
+    },
+    "battery": 70,
+    "time_remaining": 64,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 6,
+          "y": 0,
+          "prob": 0.019621
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "prob": 0.0195
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "prob": 0.018877
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "prob": 0.018545
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "prob": 0.017455
+        }
+      ],
+      "entropy": 4.4891
+    },
+    "decision": "scan",
+    "reasoning": "Scanning from (0,0): entropy=4.489, nearby belief mass=0.000. Scan beats all moves."
+  },
+  {
+    "step": 17,
+    "action": "scan",
+    "observation": {
+      "agent_pos": [
+        0,
+        0
+      ],
+      "battery": 65,
+      "time_remaining": 63,
+      "steps_taken": 17,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "scan"
+    },
+    "battery": 65,
+    "time_remaining": 63,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 6,
+          "y": 0,
+          "prob": 0.019621
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "prob": 0.0195
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "prob": 0.018877
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "prob": 0.018545
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "prob": 0.017455
+        }
+      ],
+      "entropy": 4.4891
+    },
+    "decision": "scan",
+    "reasoning": "Scanning from (0,0): entropy=4.489, nearby belief mass=0.000. Scan beats all moves."
+  },
+  {
+    "step": 18,
+    "action": "scan",
+    "observation": {
+      "agent_pos": [
+        0,
+        0
+      ],
+      "battery": 60,
+      "time_remaining": 62,
+      "steps_taken": 18,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "scan"
+    },
+    "battery": 60,
+    "time_remaining": 62,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 6,
+          "y": 0,
+          "prob": 0.019621
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "prob": 0.0195
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "prob": 0.018877
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "prob": 0.018545
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "prob": 0.017455
+        }
+      ],
+      "entropy": 4.4891
+    },
+    "decision": "scan",
+    "reasoning": "Scanning from (0,0): entropy=4.489, nearby belief mass=0.000. Scan beats all moves."
+  },
+  {
+    "step": 19,
+    "action": "scan",
+    "observation": {
+      "agent_pos": [
+        0,
+        0
+      ],
+      "battery": 55,
+      "time_remaining": 61,
+      "steps_taken": 19,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "scan"
+    },
+    "battery": 55,
+    "time_remaining": 61,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 6,
+          "y": 0,
+          "prob": 0.019621
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "prob": 0.0195
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "prob": 0.018877
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "prob": 0.018545
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "prob": 0.017455
+        }
+      ],
+      "entropy": 4.4891
+    },
+    "decision": "scan",
+    "reasoning": "Scanning from (0,0): entropy=4.489, nearby belief mass=0.000. Scan beats all moves."
+  },
+  {
+    "step": 20,
+    "action": "scan",
+    "observation": {
+      "agent_pos": [
+        0,
+        0
+      ],
+      "battery": 50,
+      "time_remaining": 60,
+      "steps_taken": 20,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "scan"
+    },
+    "battery": 50,
+    "time_remaining": 60,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 6,
+          "y": 0,
+          "prob": 0.019621
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "prob": 0.0195
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "prob": 0.018877
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "prob": 0.018545
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "prob": 0.017455
+        }
+      ],
+      "entropy": 4.4891
+    },
+    "decision": "scan",
+    "reasoning": "Scanning from (0,0): entropy=4.489, nearby belief mass=0.000. Scan beats all moves."
+  },
+  {
+    "step": 21,
+    "action": "scan",
+    "observation": {
+      "agent_pos": [
+        0,
+        0
+      ],
+      "battery": 45,
+      "time_remaining": 59,
+      "steps_taken": 21,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "scan"
+    },
+    "battery": 45,
+    "time_remaining": 59,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 6,
+          "y": 0,
+          "prob": 0.019621
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "prob": 0.0195
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "prob": 0.018877
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "prob": 0.018545
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "prob": 0.017455
+        }
+      ],
+      "entropy": 4.4891
+    },
+    "decision": "scan",
+    "reasoning": "Scanning from (0,0): entropy=4.489, nearby belief mass=0.000. Scan beats all moves."
+  },
+  {
+    "step": 22,
+    "action": "scan",
+    "observation": {
+      "agent_pos": [
+        0,
+        0
+      ],
+      "battery": 40,
+      "time_remaining": 58,
+      "steps_taken": 22,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "scan"
+    },
+    "battery": 40,
+    "time_remaining": 58,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 6,
+          "y": 0,
+          "prob": 0.019621
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "prob": 0.0195
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "prob": 0.018877
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "prob": 0.018545
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "prob": 0.017455
+        }
+      ],
+      "entropy": 4.4891
+    },
+    "decision": "scan",
+    "reasoning": "Scanning from (0,0): entropy=4.489, nearby belief mass=0.000. Scan beats all moves."
+  },
+  {
+    "step": 23,
+    "action": "scan",
+    "observation": {
+      "agent_pos": [
+        0,
+        0
+      ],
+      "battery": 35,
+      "time_remaining": 57,
+      "steps_taken": 23,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "scan"
+    },
+    "battery": 35,
+    "time_remaining": 57,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 6,
+          "y": 0,
+          "prob": 0.019621
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "prob": 0.0195
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "prob": 0.018877
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "prob": 0.018545
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "prob": 0.017455
+        }
+      ],
+      "entropy": 4.4891
+    },
+    "decision": "scan",
+    "reasoning": "Scanning from (0,0): entropy=4.489, nearby belief mass=0.000. Scan beats all moves."
+  },
+  {
+    "step": 24,
+    "action": "scan",
+    "observation": {
+      "agent_pos": [
+        0,
+        0
+      ],
+      "battery": 30,
+      "time_remaining": 56,
+      "steps_taken": 24,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "scan"
+    },
+    "battery": 30,
+    "time_remaining": 56,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 6,
+          "y": 0,
+          "prob": 0.019621
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "prob": 0.0195
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "prob": 0.018877
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "prob": 0.018545
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "prob": 0.017455
+        }
+      ],
+      "entropy": 4.4891
+    },
+    "decision": "scan",
+    "reasoning": "Scanning from (0,0): entropy=4.489, nearby belief mass=0.000. Scan beats all moves."
+  },
+  {
+    "step": 25,
+    "action": "scan",
+    "observation": {
+      "agent_pos": [
+        0,
+        0
+      ],
+      "battery": 25,
+      "time_remaining": 55,
+      "steps_taken": 25,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "scan"
+    },
+    "battery": 25,
+    "time_remaining": 55,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 6,
+          "y": 0,
+          "prob": 0.019621
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "prob": 0.0195
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "prob": 0.018877
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "prob": 0.018545
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "prob": 0.017455
+        }
+      ],
+      "entropy": 4.4891
+    },
+    "decision": "scan",
+    "reasoning": "Scanning from (0,0): entropy=4.489, nearby belief mass=0.000. Scan beats all moves."
+  },
+  {
+    "step": 26,
+    "action": "scan",
+    "observation": {
+      "agent_pos": [
+        0,
+        0
+      ],
+      "battery": 20,
+      "time_remaining": 54,
+      "steps_taken": 26,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "scan"
+    },
+    "battery": 20,
+    "time_remaining": 54,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 6,
+          "y": 0,
+          "prob": 0.019621
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "prob": 0.0195
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "prob": 0.018877
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "prob": 0.018545
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "prob": 0.017455
+        }
+      ],
+      "entropy": 4.4891
+    },
+    "decision": "scan",
+    "reasoning": "Scanning from (0,0): entropy=4.489, nearby belief mass=0.000. Scan beats all moves."
+  },
+  {
+    "step": 27,
+    "action": "scan",
+    "observation": {
+      "agent_pos": [
+        0,
+        0
+      ],
+      "battery": 15,
+      "time_remaining": 53,
+      "steps_taken": 27,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "scan"
+    },
+    "battery": 15,
+    "time_remaining": 53,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 6,
+          "y": 0,
+          "prob": 0.019621
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "prob": 0.0195
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "prob": 0.018877
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "prob": 0.018545
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "prob": 0.017455
+        }
+      ],
+      "entropy": 4.4891
+    },
+    "decision": "scan",
+    "reasoning": "Scanning from (0,0): entropy=4.489, nearby belief mass=0.000. Scan beats all moves."
+  },
+  {
+    "step": 28,
+    "action": "scan",
+    "observation": {
+      "agent_pos": [
+        0,
+        0
+      ],
+      "battery": 10,
+      "time_remaining": 52,
+      "steps_taken": 28,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "scan"
+    },
+    "battery": 10,
+    "time_remaining": 52,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 6,
+          "y": 0,
+          "prob": 0.019621
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "prob": 0.0195
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "prob": 0.018877
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "prob": 0.018545
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "prob": 0.017455
+        }
+      ],
+      "entropy": 4.4891
+    },
+    "decision": "scan",
+    "reasoning": "Scanning from (0,0): entropy=4.489, nearby belief mass=0.000. Scan beats all moves."
+  },
+  {
+    "step": 29,
+    "action": "E",
+    "observation": {
+      "agent_pos": [
+        1,
+        0
+      ],
+      "battery": 8,
+      "time_remaining": 51,
+      "steps_taken": 29,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:E"
+    },
+    "battery": 8,
+    "time_remaining": 51,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 6,
+          "y": 0,
+          "prob": 0.019621
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "prob": 0.0195
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "prob": 0.018877
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "prob": 0.018545
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "prob": 0.017455
+        }
+      ],
+      "entropy": 4.4891
+    },
+    "decision": "E",
+    "reasoning": "Moving E toward top belief cell (6,0) [p=0.020]. Belief gain=0.0296."
+  },
+  {
+    "step": 30,
+    "action": "E",
+    "observation": {
+      "agent_pos": [
+        2,
+        0
+      ],
+      "battery": 6,
+      "time_remaining": 50,
+      "steps_taken": 30,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:E"
+    },
+    "battery": 6,
+    "time_remaining": 50,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 6,
+          "y": 0,
+          "prob": 0.019906
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "prob": 0.019783
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "prob": 0.019151
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "prob": 0.018814
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "prob": 0.017709
+        }
+      ],
+      "entropy": 4.4883
+    },
+    "decision": "E",
+    "reasoning": "Moving E toward top belief cell (6,0) [p=0.020]. Belief gain=0.0478."
+  },
+  {
+    "step": 31,
+    "action": "S",
+    "observation": {
+      "agent_pos": [
+        2,
+        1
+      ],
+      "battery": 4,
+      "time_remaining": 49,
+      "steps_taken": 31,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:S"
+    },
+    "battery": 4,
+    "time_remaining": 49,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 6,
+          "y": 0,
+          "prob": 0.020167
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "prob": 0.020043
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "prob": 0.019402
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "prob": 0.019061
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "prob": 0.017941
+        }
+      ],
+      "entropy": 4.4813
+    },
+    "decision": "S",
+    "reasoning": "Battery critically low \u2014 retreating S toward recharge station at (1,1)."
+  },
+  {
+    "step": 32,
+    "action": "W",
+    "observation": {
+      "agent_pos": [
+        1,
+        1
+      ],
+      "battery": 2,
+      "time_remaining": 48,
+      "steps_taken": 32,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:W"
+    },
+    "battery": 2,
+    "time_remaining": 48,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 6,
+          "y": 0,
+          "prob": 0.020167
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "prob": 0.020043
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "prob": 0.019402
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "prob": 0.019061
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "prob": 0.017941
+        }
+      ],
+      "entropy": 4.4813
+    },
+    "decision": "W",
+    "reasoning": "Battery critically low \u2014 retreating W toward recharge station at (1,1)."
+  },
+  {
+    "step": 33,
+    "action": "end_mission",
+    "observation": {
+      "agent_pos": [
+        1,
+        1
+      ],
+      "battery": 2,
+      "time_remaining": 48,
+      "steps_taken": 32,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "mission_ended"
+    },
+    "battery": 2,
+    "time_remaining": 48,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 6,
+          "y": 0,
+          "prob": 0.020167
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "prob": 0.020043
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "prob": 0.019402
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "prob": 0.019061
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "prob": 0.017941
+        }
+      ],
+      "entropy": 4.4813
+    },
+    "decision": "end_mission",
+    "reasoning": "Battery (2) at or below safety reserve (2) and no path to station \u2014 ending mission."
+  }
+]

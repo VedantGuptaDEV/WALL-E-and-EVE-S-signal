@@ -1,0 +1,310 @@
+﻿
+============================================================
+STEP 1 DIAGNOSTIC  agent=(0,0)  battery=220/220  entropy=5.269
+  Top-3 belief cells:
+    #1: (14,14) p=0.009258  bfs=28  mass_r2=0.0778
+    #2: (14,13) p=0.009258  bfs=27  mass_r2=0.1038
+    #3: (14,12) p=0.009258  bfs=26  mass_r2=0.1297
+  Locked target: (14,14) p=0.009258  bfs=28
+  Move scores:
+    N -> ( 0,-1): BLOCKED
+    S -> ( 0, 1): info=0.0268  bfs=1  info/step=0.0268  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.15  TOTAL=0.0322
+    E -> ( 1, 0): info=0.0270  bfs=1  info/step=0.0270  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.15  TOTAL=0.0323
+    W -> (-1, 0): BLOCKED
+    SCAN from ( 0, 0): p_nearby=0.0201  battery_frac=1.000  overdue=True  TOTAL=0.3701
+  >> CHOSEN: scan  score=0.3701
+============================================================
+
+============================================================
+STEP 2 DIAGNOSTIC  agent=(0,0)  battery=212/220  entropy=5.260
+  Top-3 belief cells:
+    #1: (14,14) p=0.009336  bfs=28  mass_r2=0.0785
+    #2: (14,13) p=0.009336  bfs=27  mass_r2=0.1046
+    #3: (14,12) p=0.009336  bfs=26  mass_r2=0.1308
+  Locked target: (14,14) p=0.009336  bfs=28
+  Move scores:
+    N -> ( 0,-1): BLOCKED
+    S -> ( 0, 1): info=0.0187  bfs=1  info/step=0.0187  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.15  TOTAL=0.0216
+    E -> ( 1, 0): info=0.0188  bfs=1  info/step=0.0188  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.15  TOTAL=0.0218
+    W -> (-1, 0): BLOCKED
+    SCAN from ( 0, 0): p_nearby=0.0119  battery_frac=0.964  overdue=False  TOTAL=0.0115
+  >> CHOSEN: E  score=0.0218
+============================================================
+
+============================================================
+STEP 3 DIAGNOSTIC  agent=(1,0)  battery=209/220  entropy=5.252
+  Top-3 belief cells:
+    #1: (14,14) p=0.009379  bfs=27  mass_r2=0.0788
+    #2: (14,13) p=0.009379  bfs=26  mass_r2=0.1051
+    #3: (14,12) p=0.009379  bfs=25  mass_r2=0.1314
+  Locked target: (14,14) p=0.009379  bfs=27
+  Move scores:
+    N -> ( 1,-1): BLOCKED
+    S -> ( 1, 1): info=0.0234  bfs=1  info/step=0.0234  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.15  TOTAL=0.0267
+    E -> ( 2, 0): info=0.0215  bfs=1  info/step=0.0215  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.15  TOTAL=0.0245
+    W -> ( 0, 0): prev_pos_penalty  score=-0.5000
+    SCAN from ( 1, 0): p_nearby=0.0143  battery_frac=0.950  overdue=False  TOTAL=0.0136
+  >> CHOSEN: S  score=0.0267
+============================================================
+
+============================================================
+STEP 4 DIAGNOSTIC  agent=(1,1)  battery=206/220  entropy=5.243
+  Top-3 belief cells:
+    #1: (14,14) p=0.009417  bfs=26  mass_r2=0.0791
+    #2: (14,13) p=0.009417  bfs=25  mass_r2=0.1055
+    #3: (14,12) p=0.009417  bfs=24  mass_r2=0.1319
+  Locked target: (14,14) p=0.009417  bfs=26
+  Move scores:
+    N -> ( 1, 0): prev_pos_penalty  score=-0.5000
+    S -> ( 1, 2): info=0.0286  bfs=1  info/step=0.0286  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.15  TOTAL=0.0321
+    E -> ( 2, 1): info=0.0291  bfs=1  info/step=0.0291  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.15  TOTAL=0.0327
+    W -> ( 0, 1): info=0.0102  bfs=1  info/step=0.0102  dir_bonus=0.85  revisit×0(pen=0.00)  explore=0.15  low_belief=0.15  TOTAL=0.0081
+    SCAN from ( 1, 1): p_nearby=0.0195  battery_frac=0.936  overdue=False  TOTAL=0.0182
+  >> CHOSEN: E  score=0.0327
+============================================================
+
+============================================================
+STEP 5 DIAGNOSTIC  agent=(2,1)  battery=203/220  entropy=5.236
+  Top-3 belief cells:
+    #1: (14,14) p=0.009461  bfs=25  mass_r2=0.0795
+    #2: (14,13) p=0.009461  bfs=24  mass_r2=0.1060
+    #3: (14,12) p=0.009461  bfs=23  mass_r2=0.1325
+  Locked target: (14,14) p=0.009461  bfs=25
+  Move scores:
+    N -> ( 2, 0): info=0.0129  bfs=1  info/step=0.0129  dir_bonus=0.85  revisit×0(pen=0.00)  explore=0.15  low_belief=0.15  TOTAL=0.0101
+    S -> ( 2, 2): info=0.0361  bfs=1  info/step=0.0361  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.00  TOTAL=0.1900
+    E -> ( 3, 1): info=0.0312  bfs=1  info/step=0.0312  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.15  TOTAL=0.0345
+    W -> ( 1, 1): prev_pos_penalty  score=-0.5000
+    SCAN from ( 2, 1): p_nearby=0.0245  battery_frac=0.923  overdue=False  TOTAL=0.0226
+  >> CHOSEN: S  score=0.1900
+============================================================
+
+============================================================
+STEP 6 DIAGNOSTIC  agent=(2,2)  battery=200/220  entropy=5.228
+  Top-3 belief cells:
+    #1: (14,14) p=0.009509  bfs=24  mass_r2=0.0799
+    #2: (14,13) p=0.009509  bfs=23  mass_r2=0.1066
+    #3: (14,12) p=0.009509  bfs=22  mass_r2=0.1332
+  Locked target: (14,14) p=0.009509  bfs=24
+  Move scores:
+    N -> ( 2, 1): prev_pos_penalty  score=-0.5000
+    S -> ( 2, 3): BLOCKED
+    E -> ( 3, 2): info=0.0381  bfs=1  info/step=0.0381  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.00  TOTAL=0.1916
+    W -> ( 1, 2): info=0.0190  bfs=1  info/step=0.0190  dir_bonus=0.85  revisit×0(pen=0.00)  explore=0.15  low_belief=0.15  TOTAL=0.0147
+    SCAN from ( 2, 2): p_nearby=0.0312  battery_frac=0.909  overdue=True  TOTAL=0.3812
+  >> CHOSEN: scan  score=0.3812
+============================================================
+
+============================================================
+STEP 7 DIAGNOSTIC  agent=(2,2)  battery=192/220  entropy=5.211
+  Top-3 belief cells:
+    #1: (14,14) p=0.009633  bfs=24  mass_r2=0.0810
+    #2: (14,13) p=0.009633  bfs=23  mass_r2=0.1080
+    #3: (14,12) p=0.009633  bfs=22  mass_r2=0.1349
+  Locked target: (14,14) p=0.009633  bfs=24
+  Move scores:
+    N -> ( 2, 1): prev_pos_penalty  score=-0.5000
+    S -> ( 2, 3): BLOCKED
+    E -> ( 3, 2): info=0.0281  bfs=1  info/step=0.0281  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.15  TOTAL=0.0294
+    W -> ( 1, 2): info=0.0113  bfs=1  info/step=0.0113  dir_bonus=0.85  revisit×0(pen=0.00)  explore=0.15  low_belief=0.15  TOTAL=0.0084
+    SCAN from ( 2, 2): p_nearby=0.0185  battery_frac=0.873  overdue=False  TOTAL=0.0162
+  >> CHOSEN: E  score=0.0294
+============================================================
+
+============================================================
+STEP 8 DIAGNOSTIC  agent=(3,2)  battery=189/220  entropy=5.204
+  Top-3 belief cells:
+    #1: (14,14) p=0.009666  bfs=23  mass_r2=0.0812
+    #2: (14,13) p=0.009666  bfs=22  mass_r2=0.1083
+    #3: (14,12) p=0.009666  bfs=21  mass_r2=0.1354
+  Locked target: (14,14) p=0.009666  bfs=23
+  Move scores:
+    N -> ( 3, 1): info=0.0166  bfs=1  info/step=0.0166  dir_bonus=0.85  revisit×0(pen=0.00)  explore=0.15  low_belief=0.15  TOTAL=0.0121
+    S -> ( 3, 3): info=0.0320  bfs=1  info/step=0.0320  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.15  TOTAL=0.0330
+    E -> ( 4, 2): info=0.0370  bfs=1  info/step=0.0370  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.00  TOTAL=0.1882
+    W -> ( 2, 2): prev_pos_penalty  score=-0.5000
+    SCAN from ( 3, 2): p_nearby=0.0248  battery_frac=0.859  overdue=False  TOTAL=0.0213
+  >> CHOSEN: E  score=0.1882
+============================================================
+
+============================================================
+STEP 9 DIAGNOSTIC  agent=(4,2)  battery=186/220  entropy=5.195
+  Top-3 belief cells:
+    #1: (14,14) p=0.009720  bfs=22  mass_r2=0.0817
+    #2: (14,13) p=0.009720  bfs=21  mass_r2=0.1089
+    #3: (14,12) p=0.009720  bfs=20  mass_r2=0.1362
+  Locked target: (14,14) p=0.009720  bfs=22
+  Move scores:
+    N -> ( 4, 1): info=0.0218  bfs=1  info/step=0.0218  dir_bonus=0.85  revisit×0(pen=0.00)  explore=0.15  low_belief=0.15  TOTAL=0.0157
+    S -> ( 4, 3): info=0.0366  bfs=1  info/step=0.0366  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.00  TOTAL=0.1871
+    E -> ( 5, 2): info=0.0464  bfs=1  info/step=0.0464  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.00  TOTAL=0.1971
+    W -> ( 3, 2): prev_pos_penalty  score=-0.5000
+    SCAN from ( 4, 2): p_nearby=0.0316  battery_frac=0.845  overdue=False  TOTAL=0.0267
+  >> CHOSEN: E  score=0.1971
+============================================================
+
+============================================================
+STEP 10 DIAGNOSTIC  agent=(5,2)  battery=183/220  entropy=5.184
+  Top-3 belief cells:
+    #1: (14,14) p=0.009792  bfs=21  mass_r2=0.0823
+    #2: (14,13) p=0.009792  bfs=20  mass_r2=0.1097
+    #3: (14,12) p=0.009792  bfs=19  mass_r2=0.1372
+  Locked target: (14,14) p=0.009792  bfs=21
+  Move scores:
+    N -> ( 5, 1): info=0.0276  bfs=1  info/step=0.0276  dir_bonus=0.85  revisit×0(pen=0.00)  explore=0.15  low_belief=0.15  TOTAL=0.0195
+    S -> ( 5, 3): info=0.0421  bfs=1  info/step=0.0421  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.00  TOTAL=0.1921
+    E -> ( 6, 2): BLOCKED
+    W -> ( 4, 2): prev_pos_penalty  score=-0.5000
+    SCAN from ( 5, 2): p_nearby=0.0394  battery_frac=0.832  overdue=False  TOTAL=0.0328
+  >> CHOSEN: S  score=0.1921
+============================================================
+
+============================================================
+STEP 11 DIAGNOSTIC  agent=(5,3)  battery=180/220  entropy=5.175
+  Top-3 belief cells:
+    #1: (14,14) p=0.009849  bfs=20  mass_r2=0.0828
+    #2: (14,13) p=0.009849  bfs=19  mass_r2=0.1104
+    #3: (14,12) p=0.009849  bfs=18  mass_r2=0.1380
+  Locked target: (14,14) p=0.009849  bfs=20
+  Move scores:
+    N -> ( 5, 2): prev_pos_penalty  score=-0.5000
+    S -> ( 5, 4): info=0.0448  bfs=1  info/step=0.0448  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.00  TOTAL=0.1939
+    E -> ( 6, 3): info=0.0527  bfs=1  info/step=0.0527  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.00  TOTAL=0.2017
+    W -> ( 4, 3): info=0.0238  bfs=1  info/step=0.0238  dir_bonus=0.85  revisit×0(pen=0.00)  explore=0.15  low_belief=0.15  TOTAL=0.0166
+    SCAN from ( 5, 3): p_nearby=0.0366  battery_frac=0.818  overdue=True  TOTAL=0.3866
+  >> CHOSEN: scan  score=0.3866
+============================================================
+
+============================================================
+STEP 12 DIAGNOSTIC  agent=(5,3)  battery=172/220  entropy=5.173
+  Top-3 belief cells:
+    #1: (14, 0) p=0.012143  bfs=12  mass_r2=0.0964
+    #2: (13, 0) p=0.011858  bfs=11  mass_r2=0.1234
+    #3: (14, 1) p=0.011227  bfs=11  mass_r2=0.1222
+  Locked target: (14,0) p=0.012143  bfs=12
+  Move scores:
+    N -> ( 5, 2): prev_pos_penalty  score=-0.5000
+    S -> ( 5, 4): info=0.0443  bfs=1  info/step=0.0443  dir_bonus=0.85  revisit×0(pen=0.00)  explore=0.15  low_belief=0.00  TOTAL=0.1794
+    E -> ( 6, 3): info=0.0609  bfs=1  info/step=0.0609  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.00  TOTAL=0.2071
+    W -> ( 4, 3): info=0.0256  bfs=1  info/step=0.0256  dir_bonus=0.85  revisit×0(pen=0.00)  explore=0.15  low_belief=0.15  TOTAL=0.0170
+    SCAN from ( 5, 3): p_nearby=0.0420  battery_frac=0.782  overdue=False  TOTAL=0.0329
+  >> CHOSEN: E  score=0.2071
+============================================================
+
+============================================================
+STEP 13 DIAGNOSTIC  agent=(6,3)  battery=169/220  entropy=5.163
+  Top-3 belief cells:
+    #1: (14, 0) p=0.012245  bfs=11  mass_r2=0.0972
+    #2: (13, 0) p=0.011957  bfs=10  mass_r2=0.1245
+    #3: (14, 1) p=0.011321  bfs=10  mass_r2=0.1232
+  Locked target: (14,0) p=0.012245  bfs=11
+  Move scores:
+    N -> ( 6, 2): BLOCKED
+    S -> ( 6, 4): info=0.0507  bfs=1  info/step=0.0507  dir_bonus=0.85  revisit×0(pen=0.00)  explore=0.15  low_belief=0.00  TOTAL=0.1831
+    E -> ( 7, 3): info=0.0764  bfs=1  info/step=0.0764  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.00  TOTAL=0.2204
+    W -> ( 5, 3): prev_pos_penalty  score=-0.5000
+    SCAN from ( 6, 3): p_nearby=0.0530  battery_frac=0.768  overdue=False  TOTAL=0.0407
+  >> CHOSEN: E  score=0.2204
+============================================================
+
+============================================================
+STEP 14 DIAGNOSTIC  agent=(7,3)  battery=166/220  entropy=5.152
+  Top-3 belief cells:
+    #1: (14, 0) p=0.012378  bfs=10  mass_r2=0.0983
+    #2: (13, 0) p=0.012087  bfs=9  mass_r2=0.1258
+    #3: (14, 1) p=0.011444  bfs=9  mass_r2=0.1246
+  Locked target: (14,0) p=0.012378  bfs=10
+  Move scores:
+    N -> ( 7, 2): info=0.0819  bfs=1  info/step=0.0819  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.00  TOTAL=0.2242
+    S -> ( 7, 4): info=0.0596  bfs=1  info/step=0.0596  dir_bonus=0.85  revisit×0(pen=0.00)  explore=0.15  low_belief=0.00  TOTAL=0.1882
+    E -> ( 8, 3): info=0.0940  bfs=1  info/step=0.0940  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.00  TOTAL=0.2351
+    W -> ( 6, 3): prev_pos_penalty  score=-0.5000
+    SCAN from ( 7, 3): p_nearby=0.0663  battery_frac=0.755  overdue=False  TOTAL=0.0501
+  >> CHOSEN: E  score=0.2351
+============================================================
+
+============================================================
+STEP 15 DIAGNOSTIC  agent=(8,3)  battery=163/220  entropy=5.140
+  Top-3 belief cells:
+    #1: (14, 0) p=0.012540  bfs=9  mass_r2=0.0996
+    #2: (13, 0) p=0.012245  bfs=8  mass_r2=0.1275
+    #3: (14, 1) p=0.011594  bfs=8  mass_r2=0.1262
+  Locked target: (14,0) p=0.012540  bfs=9
+  Move scores:
+    N -> ( 8, 2): info=0.0981  bfs=1  info/step=0.0981  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.00  TOTAL=0.2372
+    S -> ( 8, 4): info=0.0719  bfs=1  info/step=0.0719  dir_bonus=0.85  revisit×0(pen=0.00)  explore=0.15  low_belief=0.00  TOTAL=0.1953
+    E -> ( 9, 3): info=0.1142  bfs=1  info/step=0.1142  dir_bonus=1.2  revisit×0(pen=0.00)  explore=0.15  low_belief=0.00  TOTAL=0.2515
+    W -> ( 7, 3): prev_pos_penalty  score=-0.5000
+    SCAN from ( 8, 3): p_nearby=0.0822  battery_frac=0.741  overdue=False  TOTAL=0.0609
+  >> CHOSEN: E  score=0.2515
+============================================================
+
+=====================
+  FINAL MAP
+=====================
+   012345678901234
+   ---------------
+ 0|**             
+ 1| **   #     ***
+ 2|  R***#  ***C#C
+ 3| ##  C***C    *
+ 4|          # C**
+ 5|        #   ** 
+ 6|        #   #* 
+ 7|   ##  R     C 
+ 8|    #      # * 
+ 9|         #   * 
+10|             * 
+11|            &* 
+12|               
+13|             R 
+14|               
+
+Legend:
+  @=Agent (final pos)   &=Agent on EVE   E=EVE(found)
+  *=Visited   C=Clue discovered   D=Decoy ruled out
+  R=Recharge   #=Obstacle   .=Empty
+Belief intensity (low->high): .  :  -  =  +  *  #  %  @
+=====================
+
+=====================
+  BELIEF HEATMAP (final)
+=====================
+BELIEF HEATMAP (final)
+  Intensity scale: ' '=low  '@'=high
+   012345678901234
+   ---------------
+ 0|               
+ 1|               
+ 2|               
+ 3|               
+ 4|               
+ 5|               
+ 6|               
+ 7|               
+ 8|               
+ 9|               
+10|               
+11|            @  
+12|               
+13|               
+14|               
+
+  min=0.000001  max=0.999776
+Belief intensity (low->high): .  :  -  =  +  *  #  %  @
+=====================
+
+[run] 1 strategy-change snapshot(s) saved to outputs_run2/
+==================================================
+  MISSION SUMMARY
+==================================================
+  Found EVE        : YES [FOUND]
+  Steps taken      : 42
+  Battery remaining: 49
+  Confidence score : 1.0000 [CONFIRMED]
+  Total scans      : 9
+  Clue signals     : 6 scan positions returned clue
+  Decoys found     : 0 positions identified as decoys
+  Strategy changes : 1
+  EVE location     : [12, 11] [CONFIRMED]
+==================================================

@@ -1,0 +1,2864 @@
+[
+  {
+    "step": 1,
+    "action": "scan",
+    "observation": {
+      "agent_pos": [
+        0,
+        0
+      ],
+      "battery": 145,
+      "time_remaining": 79,
+      "steps_taken": 1,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "scan"
+    },
+    "battery": 145,
+    "time_remaining": 79,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 6,
+          "y": 0,
+          "prob": 0.01882
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "prob": 0.018703
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "prob": 0.018106
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "prob": 0.017787
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "prob": 0.016743
+        }
+      ],
+      "entropy": 4.5659
+    },
+    "decision": "scan",
+    "reasoning": "Scanning from (0,0) [overdue: 4 steps since last scan]: nearby belief mass=0.0930."
+  },
+  {
+    "step": 2,
+    "action": "E",
+    "observation": {
+      "agent_pos": [
+        1,
+        0
+      ],
+      "battery": 143,
+      "time_remaining": 78,
+      "steps_taken": 2,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:E"
+    },
+    "battery": 143,
+    "time_remaining": 78,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 6,
+          "y": 0,
+          "prob": 0.019136
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "prob": 0.019018
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "prob": 0.018411
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "prob": 0.018087
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "prob": 0.017025
+        }
+      ],
+      "entropy": 4.5448
+    },
+    "decision": "E",
+    "reasoning": "Moving E to (1,0): belief mass=0.1694, [toward target], target=(6,0) p=0.0188."
+  },
+  {
+    "step": 3,
+    "action": "E",
+    "observation": {
+      "agent_pos": [
+        2,
+        0
+      ],
+      "battery": 141,
+      "time_remaining": 77,
+      "steps_taken": 3,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:E"
+    },
+    "battery": 141,
+    "time_remaining": 77,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 6,
+          "y": 0,
+          "prob": 0.019509
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "prob": 0.019389
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "prob": 0.018769
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "prob": 0.018439
+        },
+        {
+          "x": 4,
+          "y": 0,
+          "prob": 0.017356
+        }
+      ],
+      "entropy": 4.5336
+    },
+    "decision": "E",
+    "reasoning": "Moving E to (2,0): belief mass=0.2104, [toward target], target=(6,0) p=0.0191."
+  },
+  {
+    "step": 4,
+    "action": "E",
+    "observation": {
+      "agent_pos": [
+        3,
+        0
+      ],
+      "battery": 139,
+      "time_remaining": 76,
+      "steps_taken": 4,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:E"
+    },
+    "battery": 139,
+    "time_remaining": 76,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 6,
+          "y": 0,
+          "prob": 0.020052
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "prob": 0.019928
+        },
+        {
+          "x": 5,
+          "y": 0,
+          "prob": 0.019291
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "prob": 0.018952
+        },
+        {
+          "x": 9,
+          "y": 0,
+          "prob": 0.017367
+        }
+      ],
+      "entropy": 4.5209
+    },
+    "decision": "E",
+    "reasoning": "Moving E to (3,0): belief mass=0.2525, [toward target], target=(6,0) p=0.0195."
+  },
+  {
+    "step": 5,
+    "action": "E",
+    "observation": {
+      "agent_pos": [
+        4,
+        0
+      ],
+      "battery": 137,
+      "time_remaining": 75,
+      "steps_taken": 5,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:E"
+    },
+    "battery": 137,
+    "time_remaining": 75,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 6,
+          "y": 0,
+          "prob": 0.020696
+        },
+        {
+          "x": 7,
+          "y": 0,
+          "prob": 0.020569
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "prob": 0.019561
+        },
+        {
+          "x": 9,
+          "y": 0,
+          "prob": 0.017925
+        },
+        {
+          "x": 6,
+          "y": 1,
+          "prob": 0.015861
+        }
+      ],
+      "entropy": 4.5085
+    },
+    "decision": "E",
+    "reasoning": "Moving E to (4,0): belief mass=0.2716, [toward target], target=(6,0) p=0.0201."
+  },
+  {
+    "step": 6,
+    "action": "scan",
+    "observation": {
+      "agent_pos": [
+        4,
+        0
+      ],
+      "battery": 132,
+      "time_remaining": 74,
+      "steps_taken": 6,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "scan"
+    },
+    "battery": 132,
+    "time_remaining": 74,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 7,
+          "y": 0,
+          "prob": 0.022057
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "prob": 0.020976
+        },
+        {
+          "x": 9,
+          "y": 0,
+          "prob": 0.019221
+        },
+        {
+          "x": 7,
+          "y": 1,
+          "prob": 0.016935
+        },
+        {
+          "x": 8,
+          "y": 1,
+          "prob": 0.016352
+        }
+      ],
+      "entropy": 4.4882
+    },
+    "decision": "scan",
+    "reasoning": "Scanning from (4,0) [overdue: 4 steps since last scan]: nearby belief mass=0.1153."
+  },
+  {
+    "step": 7,
+    "action": "E",
+    "observation": {
+      "agent_pos": [
+        5,
+        0
+      ],
+      "battery": 130,
+      "time_remaining": 73,
+      "steps_taken": 7,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:E"
+    },
+    "battery": 130,
+    "time_remaining": 73,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 7,
+          "y": 0,
+          "prob": 0.022394
+        },
+        {
+          "x": 8,
+          "y": 0,
+          "prob": 0.021297
+        },
+        {
+          "x": 9,
+          "y": 0,
+          "prob": 0.019515
+        },
+        {
+          "x": 7,
+          "y": 1,
+          "prob": 0.017193
+        },
+        {
+          "x": 8,
+          "y": 1,
+          "prob": 0.016602
+        }
+      ],
+      "entropy": 4.4704
+    },
+    "decision": "E",
+    "reasoning": "Moving E to (5,0): belief mass=0.2393, [toward target], target=(7,0) p=0.0221."
+  },
+  {
+    "step": 8,
+    "action": "E",
+    "observation": {
+      "agent_pos": [
+        6,
+        0
+      ],
+      "battery": 128,
+      "time_remaining": 72,
+      "steps_taken": 8,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:E"
+    },
+    "battery": 128,
+    "time_remaining": 72,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 8,
+          "y": 0,
+          "prob": 0.02189
+        },
+        {
+          "x": 9,
+          "y": 0,
+          "prob": 0.020058
+        },
+        {
+          "x": 8,
+          "y": 1,
+          "prob": 0.017064
+        },
+        {
+          "x": 9,
+          "y": 1,
+          "prob": 0.016077
+        },
+        {
+          "x": 7,
+          "y": 2,
+          "prob": 0.0145
+        }
+      ],
+      "entropy": 4.4624
+    },
+    "decision": "E",
+    "reasoning": "Moving E to (6,0): belief mass=0.2742, [toward target], target=(7,0) p=0.0224."
+  },
+  {
+    "step": 9,
+    "action": "E",
+    "observation": {
+      "agent_pos": [
+        7,
+        0
+      ],
+      "battery": 126,
+      "time_remaining": 71,
+      "steps_taken": 9,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:E"
+    },
+    "battery": 126,
+    "time_remaining": 71,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 9,
+          "y": 0,
+          "prob": 0.02081
+        },
+        {
+          "x": 9,
+          "y": 1,
+          "prob": 0.01668
+        },
+        {
+          "x": 7,
+          "y": 2,
+          "prob": 0.015044
+        },
+        {
+          "x": 8,
+          "y": 2,
+          "prob": 0.014733
+        },
+        {
+          "x": 9,
+          "y": 2,
+          "prob": 0.014228
+        }
+      ],
+      "entropy": 4.4519
+    },
+    "decision": "E",
+    "reasoning": "Moving E to (7,0): belief mass=0.2353, [toward target], target=(8,0) p=0.0219."
+  },
+  {
+    "step": 10,
+    "action": "S",
+    "observation": {
+      "agent_pos": [
+        7,
+        1
+      ],
+      "battery": 124,
+      "time_remaining": 70,
+      "steps_taken": 10,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:S"
+    },
+    "battery": 124,
+    "time_remaining": 70,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 9,
+          "y": 0,
+          "prob": 0.021526
+        },
+        {
+          "x": 9,
+          "y": 1,
+          "prob": 0.017253
+        },
+        {
+          "x": 9,
+          "y": 2,
+          "prob": 0.014717
+        },
+        {
+          "x": 6,
+          "y": 3,
+          "prob": 0.013762
+        },
+        {
+          "x": 7,
+          "y": 3,
+          "prob": 0.013743
+        }
+      ],
+      "entropy": 4.4332
+    },
+    "decision": "S",
+    "reasoning": "Moving S to (7,1): belief mass=0.2809, [exploring], target=(9,0) p=0.0208."
+  },
+  {
+    "step": 11,
+    "action": "scan",
+    "observation": {
+      "agent_pos": [
+        7,
+        1
+      ],
+      "battery": 119,
+      "time_remaining": 69,
+      "steps_taken": 11,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "scan"
+    },
+    "battery": 119,
+    "time_remaining": 69,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 4,
+          "y": 3,
+          "prob": 0.014809
+        },
+        {
+          "x": 3,
+          "y": 3,
+          "prob": 0.014514
+        },
+        {
+          "x": 2,
+          "y": 3,
+          "prob": 0.014219
+        },
+        {
+          "x": 6,
+          "y": 4,
+          "prob": 0.014193
+        },
+        {
+          "x": 7,
+          "y": 4,
+          "prob": 0.014185
+        }
+      ],
+      "entropy": 4.4015
+    },
+    "decision": "scan",
+    "reasoning": "Scanning from (7,1) [overdue: 4 steps since last scan]: nearby belief mass=0.1588. [REPLAN: belief target shifted \u2014 resetting loop penalty.]"
+  },
+  {
+    "step": 12,
+    "action": "S",
+    "observation": {
+      "agent_pos": [
+        7,
+        2
+      ],
+      "battery": 117,
+      "time_remaining": 68,
+      "steps_taken": 12,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:S"
+    },
+    "battery": 117,
+    "time_remaining": 68,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 4,
+          "y": 3,
+          "prob": 0.015059
+        },
+        {
+          "x": 3,
+          "y": 3,
+          "prob": 0.014758
+        },
+        {
+          "x": 2,
+          "y": 3,
+          "prob": 0.014458
+        },
+        {
+          "x": 6,
+          "y": 4,
+          "prob": 0.014432
+        },
+        {
+          "x": 7,
+          "y": 4,
+          "prob": 0.014424
+        }
+      ],
+      "entropy": 4.3772
+    },
+    "decision": "S",
+    "reasoning": "Moving S to (7,2): belief mass=0.2625, [toward target], target=(4,3) p=0.0148."
+  },
+  {
+    "step": 13,
+    "action": "S",
+    "observation": {
+      "agent_pos": [
+        7,
+        3
+      ],
+      "battery": 115,
+      "time_remaining": 67,
+      "steps_taken": 13,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:S"
+    },
+    "battery": 115,
+    "time_remaining": 67,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 4,
+          "y": 3,
+          "prob": 0.015512
+        },
+        {
+          "x": 3,
+          "y": 3,
+          "prob": 0.015202
+        },
+        {
+          "x": 2,
+          "y": 3,
+          "prob": 0.014893
+        },
+        {
+          "x": 5,
+          "y": 4,
+          "prob": 0.014813
+        },
+        {
+          "x": 4,
+          "y": 4,
+          "prob": 0.014711
+        }
+      ],
+      "entropy": 4.3575
+    },
+    "decision": "S",
+    "reasoning": "Moving S to (7,3): belief mass=0.3329, [toward target], target=(4,3) p=0.0151."
+  },
+  {
+    "step": 14,
+    "action": "W",
+    "observation": {
+      "agent_pos": [
+        6,
+        3
+      ],
+      "battery": 113,
+      "time_remaining": 66,
+      "steps_taken": 14,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:W"
+    },
+    "battery": 113,
+    "time_remaining": 66,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 4,
+          "y": 3,
+          "prob": 0.015853
+        },
+        {
+          "x": 3,
+          "y": 3,
+          "prob": 0.015536
+        },
+        {
+          "x": 2,
+          "y": 3,
+          "prob": 0.015221
+        },
+        {
+          "x": 4,
+          "y": 4,
+          "prob": 0.015034
+        },
+        {
+          "x": 9,
+          "y": 4,
+          "prob": 0.015
+        }
+      ],
+      "entropy": 4.3381
+    },
+    "decision": "W",
+    "reasoning": "Moving W to (6,3): belief mass=0.3790, [toward target], target=(4,3) p=0.0155."
+  },
+  {
+    "step": 15,
+    "action": "W",
+    "observation": {
+      "agent_pos": [
+        5,
+        3
+      ],
+      "battery": 111,
+      "time_remaining": 65,
+      "steps_taken": 15,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:W"
+    },
+    "battery": 111,
+    "time_remaining": 65,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 3,
+          "y": 3,
+          "prob": 0.015999
+        },
+        {
+          "x": 2,
+          "y": 3,
+          "prob": 0.015674
+        },
+        {
+          "x": 9,
+          "y": 4,
+          "prob": 0.015447
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "prob": 0.015397
+        },
+        {
+          "x": 3,
+          "y": 4,
+          "prob": 0.015348
+        }
+      ],
+      "entropy": 4.3164
+    },
+    "decision": "W",
+    "reasoning": "Moving W to (5,3): belief mass=0.3507, [toward target], target=(4,3) p=0.0159."
+  },
+  {
+    "step": 16,
+    "action": "scan",
+    "observation": {
+      "agent_pos": [
+        5,
+        3
+      ],
+      "battery": 106,
+      "time_remaining": 64,
+      "steps_taken": 16,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "scan"
+    },
+    "battery": 106,
+    "time_remaining": 64,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 2,
+          "y": 3,
+          "prob": 0.017154
+        },
+        {
+          "x": 9,
+          "y": 4,
+          "prob": 0.016905
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "prob": 0.01685
+        },
+        {
+          "x": 2,
+          "y": 4,
+          "prob": 0.01665
+        },
+        {
+          "x": 0,
+          "y": 3,
+          "prob": 0.016624
+        }
+      ],
+      "entropy": 4.2675
+    },
+    "decision": "scan",
+    "reasoning": "Scanning from (5,3) [overdue: 4 steps since last scan]: nearby belief mass=0.1475."
+  },
+  {
+    "step": 17,
+    "action": "W",
+    "observation": {
+      "agent_pos": [
+        4,
+        3
+      ],
+      "battery": 104,
+      "time_remaining": 63,
+      "steps_taken": 17,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:W"
+    },
+    "battery": 104,
+    "time_remaining": 63,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 2,
+          "y": 3,
+          "prob": 0.017434
+        },
+        {
+          "x": 9,
+          "y": 4,
+          "prob": 0.017181
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "prob": 0.017126
+        },
+        {
+          "x": 2,
+          "y": 4,
+          "prob": 0.016922
+        },
+        {
+          "x": 0,
+          "y": 3,
+          "prob": 0.016896
+        }
+      ],
+      "entropy": 4.2412
+    },
+    "decision": "W",
+    "reasoning": "Moving W to (4,3): belief mass=0.2947, [toward target], target=(2,3) p=0.0172."
+  },
+  {
+    "step": 18,
+    "action": "W",
+    "observation": {
+      "agent_pos": [
+        3,
+        3
+      ],
+      "battery": 102,
+      "time_remaining": 62,
+      "steps_taken": 18,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:W"
+    },
+    "battery": 102,
+    "time_remaining": 62,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 9,
+          "y": 4,
+          "prob": 0.017646
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "prob": 0.017589
+        },
+        {
+          "x": 0,
+          "y": 3,
+          "prob": 0.017353
+        },
+        {
+          "x": 8,
+          "y": 5,
+          "prob": 0.017302
+        },
+        {
+          "x": 9,
+          "y": 5,
+          "prob": 0.017251
+        }
+      ],
+      "entropy": 4.2188
+    },
+    "decision": "W",
+    "reasoning": "Moving W to (3,3): belief mass=0.3393, [toward target], target=(2,3) p=0.0174. [REPLAN: belief target shifted \u2014 resetting loop penalty.]"
+  },
+  {
+    "step": 19,
+    "action": "S",
+    "observation": {
+      "agent_pos": [
+        3,
+        4
+      ],
+      "battery": 100,
+      "time_remaining": 61,
+      "steps_taken": 19,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:S"
+    },
+    "battery": 100,
+    "time_remaining": 61,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 9,
+          "y": 4,
+          "prob": 0.018133
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "prob": 0.018075
+        },
+        {
+          "x": 0,
+          "y": 3,
+          "prob": 0.017832
+        },
+        {
+          "x": 8,
+          "y": 5,
+          "prob": 0.017779
+        },
+        {
+          "x": 9,
+          "y": 5,
+          "prob": 0.017727
+        }
+      ],
+      "entropy": 4.1955
+    },
+    "decision": "S",
+    "reasoning": "Moving S to (3,4): belief mass=0.4363, [toward target], target=(9,4) p=0.0176."
+  },
+  {
+    "step": 20,
+    "action": "E",
+    "observation": {
+      "agent_pos": [
+        4,
+        4
+      ],
+      "battery": 98,
+      "time_remaining": 60,
+      "steps_taken": 20,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:E"
+    },
+    "battery": 98,
+    "time_remaining": 60,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 9,
+          "y": 4,
+          "prob": 0.018286
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "prob": 0.018227
+        },
+        {
+          "x": 0,
+          "y": 3,
+          "prob": 0.017982
+        },
+        {
+          "x": 8,
+          "y": 5,
+          "prob": 0.017929
+        },
+        {
+          "x": 9,
+          "y": 5,
+          "prob": 0.017876
+        }
+      ],
+      "entropy": 4.1815
+    },
+    "decision": "E",
+    "reasoning": "Moving E to (4,4): belief mass=0.3657, [toward target], target=(9,4) p=0.0181."
+  },
+  {
+    "step": 21,
+    "action": "scan",
+    "observation": {
+      "agent_pos": [
+        4,
+        4
+      ],
+      "battery": 93,
+      "time_remaining": 59,
+      "steps_taken": 21,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "scan"
+    },
+    "battery": 93,
+    "time_remaining": 59,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 9,
+          "y": 4,
+          "prob": 0.019745
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "prob": 0.019681
+        },
+        {
+          "x": 0,
+          "y": 3,
+          "prob": 0.019416
+        },
+        {
+          "x": 8,
+          "y": 5,
+          "prob": 0.019359
+        },
+        {
+          "x": 9,
+          "y": 5,
+          "prob": 0.019302
+        }
+      ],
+      "entropy": 4.1324
+    },
+    "decision": "scan",
+    "reasoning": "Scanning from (4,4) [overdue: 4 steps since last scan]: nearby belief mass=0.1263."
+  },
+  {
+    "step": 22,
+    "action": "S",
+    "observation": {
+      "agent_pos": [
+        4,
+        5
+      ],
+      "battery": 91,
+      "time_remaining": 58,
+      "steps_taken": 22,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:S"
+    },
+    "battery": 91,
+    "time_remaining": 58,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 9,
+          "y": 4,
+          "prob": 0.020027
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "prob": 0.019962
+        },
+        {
+          "x": 0,
+          "y": 3,
+          "prob": 0.019694
+        },
+        {
+          "x": 8,
+          "y": 5,
+          "prob": 0.019636
+        },
+        {
+          "x": 9,
+          "y": 5,
+          "prob": 0.019578
+        }
+      ],
+      "entropy": 4.113
+    },
+    "decision": "S",
+    "reasoning": "Moving S to (4,5): belief mass=0.4383, [exploring], target=(9,4) p=0.0197."
+  },
+  {
+    "step": 23,
+    "action": "S",
+    "observation": {
+      "agent_pos": [
+        4,
+        6
+      ],
+      "battery": 89,
+      "time_remaining": 57,
+      "steps_taken": 23,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:S"
+    },
+    "battery": 89,
+    "time_remaining": 57,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 9,
+          "y": 4,
+          "prob": 0.02081
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "prob": 0.020743
+        },
+        {
+          "x": 0,
+          "y": 3,
+          "prob": 0.020464
+        },
+        {
+          "x": 8,
+          "y": 5,
+          "prob": 0.020403
+        },
+        {
+          "x": 9,
+          "y": 5,
+          "prob": 0.020344
+        }
+      ],
+      "entropy": 4.0905
+    },
+    "decision": "S",
+    "reasoning": "Moving S to (4,6): belief mass=0.5554, [exploring], target=(9,4) p=0.0200."
+  },
+  {
+    "step": 24,
+    "action": "E",
+    "observation": {
+      "agent_pos": [
+        5,
+        6
+      ],
+      "battery": 87,
+      "time_remaining": 56,
+      "steps_taken": 24,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:E"
+    },
+    "battery": 87,
+    "time_remaining": 56,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 9,
+          "y": 4,
+          "prob": 0.021418
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "prob": 0.021348
+        },
+        {
+          "x": 0,
+          "y": 3,
+          "prob": 0.021061
+        },
+        {
+          "x": 8,
+          "y": 5,
+          "prob": 0.020999
+        },
+        {
+          "x": 9,
+          "y": 5,
+          "prob": 0.020938
+        }
+      ],
+      "entropy": 4.066
+    },
+    "decision": "E",
+    "reasoning": "Moving E to (5,6): belief mass=0.5100, [toward target], target=(9,4) p=0.0208."
+  },
+  {
+    "step": 25,
+    "action": "E",
+    "observation": {
+      "agent_pos": [
+        6,
+        6
+      ],
+      "battery": 85,
+      "time_remaining": 55,
+      "steps_taken": 25,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:E"
+    },
+    "battery": 85,
+    "time_remaining": 55,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 9,
+          "y": 4,
+          "prob": 0.022267
+        },
+        {
+          "x": 1,
+          "y": 3,
+          "prob": 0.022195
+        },
+        {
+          "x": 0,
+          "y": 3,
+          "prob": 0.021896
+        },
+        {
+          "x": 8,
+          "y": 5,
+          "prob": 0.021831
+        },
+        {
+          "x": 9,
+          "y": 5,
+          "prob": 0.021768
+        }
+      ],
+      "entropy": 4.0382
+    },
+    "decision": "E",
+    "reasoning": "Moving E to (6,6): belief mass=0.5508, [toward target], target=(9,4) p=0.0214."
+  },
+  {
+    "step": 26,
+    "action": "scan",
+    "observation": {
+      "agent_pos": [
+        6,
+        6
+      ],
+      "battery": 80,
+      "time_remaining": 54,
+      "steps_taken": 26,
+      "scan_result": {
+        "clue_strength": 0.6928,
+        "clue_direction": "W",
+        "eve_detected": true
+      },
+      "event": "scan"
+    },
+    "battery": 80,
+    "time_remaining": 54,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 8,
+          "y": 5,
+          "prob": 0.09291
+        },
+        {
+          "x": 8,
+          "y": 6,
+          "prob": 0.091892
+        },
+        {
+          "x": 8,
+          "y": 7,
+          "prob": 0.091526
+        },
+        {
+          "x": 6,
+          "y": 8,
+          "prob": 0.091412
+        },
+        {
+          "x": 7,
+          "y": 8,
+          "prob": 0.091412
+        }
+      ],
+      "entropy": 2.8109
+    },
+    "decision": "scan",
+    "reasoning": "Scanning from (6,6) [overdue: 4 steps since last scan]: nearby belief mass=0.2272."
+  },
+  {
+    "step": 27,
+    "action": "E",
+    "observation": {
+      "agent_pos": [
+        7,
+        6
+      ],
+      "battery": 78,
+      "time_remaining": 53,
+      "steps_taken": 27,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:E"
+    },
+    "battery": 78,
+    "time_remaining": 53,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 6,
+          "y": 8,
+          "prob": 0.118625
+        },
+        {
+          "x": 7,
+          "y": 8,
+          "prob": 0.118624
+        },
+        {
+          "x": 5,
+          "y": 8,
+          "prob": 0.11862
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "prob": 0.118617
+        },
+        {
+          "x": 4,
+          "y": 8,
+          "prob": 0.11861
+        }
+      ],
+      "entropy": 2.7365
+    },
+    "decision": "E",
+    "reasoning": "Moving E to (7,6): belief mass=0.9777, [toward target], target=(8,5) p=0.0929. [REPLAN: belief target shifted \u2014 resetting loop penalty.]"
+  },
+  {
+    "step": 28,
+    "action": "W",
+    "observation": {
+      "agent_pos": [
+        6,
+        6
+      ],
+      "battery": 76,
+      "time_remaining": 52,
+      "steps_taken": 28,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:W"
+    },
+    "battery": 76,
+    "time_remaining": 52,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 6,
+          "y": 8,
+          "prob": 0.123373
+        },
+        {
+          "x": 7,
+          "y": 8,
+          "prob": 0.123373
+        },
+        {
+          "x": 5,
+          "y": 8,
+          "prob": 0.123368
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "prob": 0.123366
+        },
+        {
+          "x": 4,
+          "y": 8,
+          "prob": 0.123358
+        }
+      ],
+      "entropy": 2.6691
+    },
+    "decision": "W",
+    "reasoning": "Moving W to (6,6): belief mass=0.9742, [toward target], target=(6,8) p=0.1186."
+  },
+  {
+    "step": 29,
+    "action": "S",
+    "observation": {
+      "agent_pos": [
+        6,
+        7
+      ],
+      "battery": 74,
+      "time_remaining": 51,
+      "steps_taken": 29,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:S"
+    },
+    "battery": 74,
+    "time_remaining": 51,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 8,
+          "y": 8,
+          "prob": 0.155089
+        },
+        {
+          "x": 4,
+          "y": 8,
+          "prob": 0.155079
+        },
+        {
+          "x": 8,
+          "y": 4,
+          "prob": 0.081004
+        },
+        {
+          "x": 8,
+          "y": 5,
+          "prob": 0.07882
+        },
+        {
+          "x": 8,
+          "y": 6,
+          "prob": 0.077956
+        }
+      ],
+      "entropy": 2.6986
+    },
+    "decision": "S",
+    "reasoning": "Moving S to (6,7): belief mass=0.9725, [toward target], target=(6,8) p=0.1234."
+  },
+  {
+    "step": 30,
+    "action": "E",
+    "observation": {
+      "agent_pos": [
+        7,
+        7
+      ],
+      "battery": 72,
+      "time_remaining": 50,
+      "steps_taken": 30,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:E"
+    },
+    "battery": 72,
+    "time_remaining": 50,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 4,
+          "y": 8,
+          "prob": 0.20478
+        },
+        {
+          "x": 8,
+          "y": 4,
+          "prob": 0.106964
+        },
+        {
+          "x": 8,
+          "y": 5,
+          "prob": 0.104081
+        },
+        {
+          "x": 5,
+          "y": 8,
+          "prob": 0.102399
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "prob": 0.102397
+        }
+      ],
+      "entropy": 2.7235
+    },
+    "decision": "E",
+    "reasoning": "Moving E to (7,7): belief mass=0.9613, [toward target], target=(8,8) p=0.1551."
+  },
+  {
+    "step": 31,
+    "action": "scan",
+    "observation": {
+      "agent_pos": [
+        7,
+        7
+      ],
+      "battery": 67,
+      "time_remaining": 49,
+      "steps_taken": 31,
+      "scan_result": {
+        "clue_strength": 0.7351,
+        "clue_direction": "S",
+        "eve_detected": true
+      },
+      "event": "scan"
+    },
+    "battery": 67,
+    "time_remaining": 49,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 8,
+          "y": 5,
+          "prob": 0.186633
+        },
+        {
+          "x": 5,
+          "y": 8,
+          "prob": 0.183616
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "prob": 0.183612
+        },
+        {
+          "x": 8,
+          "y": 6,
+          "prob": 0.092294
+        },
+        {
+          "x": 8,
+          "y": 7,
+          "prob": 0.091926
+        }
+      ],
+      "entropy": 2.2196
+    },
+    "decision": "scan",
+    "reasoning": "Scanning from (7,7) [overdue: 4 steps since last scan]: nearby belief mass=0.5532. [REPLAN: belief target shifted \u2014 resetting loop penalty.]"
+  },
+  {
+    "step": 32,
+    "action": "N",
+    "observation": {
+      "agent_pos": [
+        7,
+        6
+      ],
+      "battery": 65,
+      "time_remaining": 48,
+      "steps_taken": 32,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:N"
+    },
+    "battery": 65,
+    "time_remaining": 48,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 5,
+          "y": 8,
+          "prob": 0.22893
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "prob": 0.228925
+        },
+        {
+          "x": 8,
+          "y": 5,
+          "prob": 0.116346
+        },
+        {
+          "x": 6,
+          "y": 8,
+          "prob": 0.11447
+        },
+        {
+          "x": 7,
+          "y": 8,
+          "prob": 0.114469
+        }
+      ],
+      "entropy": 2.1791
+    },
+    "decision": "N",
+    "reasoning": "Moving N to (7,6): belief mass=0.9991, [toward target], target=(8,5) p=0.1866. [REPLAN: belief target shifted \u2014 resetting loop penalty.]"
+  },
+  {
+    "step": 33,
+    "action": "W",
+    "observation": {
+      "agent_pos": [
+        6,
+        6
+      ],
+      "battery": 63,
+      "time_remaining": 47,
+      "steps_taken": 33,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:W"
+    },
+    "battery": 63,
+    "time_remaining": 47,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 5,
+          "y": 8,
+          "prob": 0.232505
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "prob": 0.2325
+        },
+        {
+          "x": 8,
+          "y": 5,
+          "prob": 0.118162
+        },
+        {
+          "x": 6,
+          "y": 8,
+          "prob": 0.116257
+        },
+        {
+          "x": 7,
+          "y": 8,
+          "prob": 0.116257
+        }
+      ],
+      "entropy": 2.136
+    },
+    "decision": "W",
+    "reasoning": "Moving W to (6,6): belief mass=0.9990, [toward target], target=(5,8) p=0.2289."
+  },
+  {
+    "step": 34,
+    "action": "S",
+    "observation": {
+      "agent_pos": [
+        6,
+        7
+      ],
+      "battery": 61,
+      "time_remaining": 46,
+      "steps_taken": 34,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:S"
+    },
+    "battery": 61,
+    "time_remaining": 46,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 8,
+          "y": 8,
+          "prob": 0.304449
+        },
+        {
+          "x": 8,
+          "y": 5,
+          "prob": 0.154728
+        },
+        {
+          "x": 5,
+          "y": 8,
+          "prob": 0.152227
+        },
+        {
+          "x": 8,
+          "y": 6,
+          "prob": 0.076516
+        },
+        {
+          "x": 8,
+          "y": 7,
+          "prob": 0.076212
+        }
+      ],
+      "entropy": 2.1666
+    },
+    "decision": "S",
+    "reasoning": "Moving S to (6,7): belief mass=0.9990, [toward target], target=(5,8) p=0.2325."
+  },
+  {
+    "step": 35,
+    "action": "E",
+    "observation": {
+      "agent_pos": [
+        7,
+        7
+      ],
+      "battery": 59,
+      "time_remaining": 45,
+      "steps_taken": 35,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:E"
+    },
+    "battery": 59,
+    "time_remaining": 45,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 8,
+          "y": 5,
+          "prob": 0.222567
+        },
+        {
+          "x": 5,
+          "y": 8,
+          "prob": 0.21897
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "prob": 0.218965
+        },
+        {
+          "x": 8,
+          "y": 6,
+          "prob": 0.055032
+        },
+        {
+          "x": 8,
+          "y": 7,
+          "prob": 0.054813
+        }
+      ],
+      "entropy": 2.2305
+    },
+    "decision": "E",
+    "reasoning": "Moving E to (7,7): belief mass=0.9985, [toward target], target=(8,8) p=0.3044. [REPLAN: belief target shifted \u2014 resetting loop penalty.]"
+  },
+  {
+    "step": 36,
+    "action": "scan",
+    "observation": {
+      "agent_pos": [
+        7,
+        7
+      ],
+      "battery": 54,
+      "time_remaining": 44,
+      "steps_taken": 36,
+      "scan_result": {
+        "clue_strength": 0.8058,
+        "clue_direction": "NW",
+        "eve_detected": true
+      },
+      "event": "scan"
+    },
+    "battery": 54,
+    "time_remaining": 44,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 8,
+          "y": 5,
+          "prob": 0.226859
+        },
+        {
+          "x": 5,
+          "y": 8,
+          "prob": 0.223192
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "prob": 0.223187
+        },
+        {
+          "x": 8,
+          "y": 6,
+          "prob": 0.056093
+        },
+        {
+          "x": 8,
+          "y": 7,
+          "prob": 0.05587
+        }
+      ],
+      "entropy": 2.1431
+    },
+    "decision": "scan",
+    "reasoning": "Scanning from (7,7) [overdue: 4 steps since last scan]: nearby belief mass=0.9809."
+  },
+  {
+    "step": 37,
+    "action": "N",
+    "observation": {
+      "agent_pos": [
+        7,
+        6
+      ],
+      "battery": 52,
+      "time_remaining": 43,
+      "steps_taken": 37,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:N"
+    },
+    "battery": 52,
+    "time_remaining": 43,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 5,
+          "y": 8,
+          "prob": 0.271039
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "prob": 0.271034
+        },
+        {
+          "x": 8,
+          "y": 5,
+          "prob": 0.137746
+        },
+        {
+          "x": 6,
+          "y": 8,
+          "prob": 0.067763
+        },
+        {
+          "x": 7,
+          "y": 8,
+          "prob": 0.067762
+        }
+      ],
+      "entropy": 2.1158
+    },
+    "decision": "N",
+    "reasoning": "Moving N to (7,6): belief mass=1.0000, [toward target], target=(8,5) p=0.2269. [REPLAN: belief target shifted \u2014 resetting loop penalty.]"
+  },
+  {
+    "step": 38,
+    "action": "W",
+    "observation": {
+      "agent_pos": [
+        6,
+        6
+      ],
+      "battery": 50,
+      "time_remaining": 42,
+      "steps_taken": 38,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:W"
+    },
+    "battery": 50,
+    "time_remaining": 42,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 5,
+          "y": 8,
+          "prob": 0.273595
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "prob": 0.27359
+        },
+        {
+          "x": 8,
+          "y": 5,
+          "prob": 0.139045
+        },
+        {
+          "x": 6,
+          "y": 8,
+          "prob": 0.068402
+        },
+        {
+          "x": 7,
+          "y": 8,
+          "prob": 0.068401
+        }
+      ],
+      "entropy": 2.0845
+    },
+    "decision": "W",
+    "reasoning": "Moving W to (6,6): belief mass=1.0000, [toward target], target=(5,8) p=0.2710."
+  },
+  {
+    "step": 39,
+    "action": "S",
+    "observation": {
+      "agent_pos": [
+        6,
+        7
+      ],
+      "battery": 48,
+      "time_remaining": 41,
+      "steps_taken": 39,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:S"
+    },
+    "battery": 48,
+    "time_remaining": 41,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 8,
+          "y": 8,
+          "prob": 0.345162
+        },
+        {
+          "x": 8,
+          "y": 5,
+          "prob": 0.17542
+        },
+        {
+          "x": 5,
+          "y": 8,
+          "prob": 0.172584
+        },
+        {
+          "x": 8,
+          "y": 6,
+          "prob": 0.043374
+        },
+        {
+          "x": 8,
+          "y": 7,
+          "prob": 0.043202
+        }
+      ],
+      "entropy": 2.1086
+    },
+    "decision": "S",
+    "reasoning": "Moving S to (6,7): belief mass=1.0000, [toward target], target=(5,8) p=0.2736."
+  },
+  {
+    "step": 40,
+    "action": "E",
+    "observation": {
+      "agent_pos": [
+        7,
+        7
+      ],
+      "battery": 46,
+      "time_remaining": 40,
+      "steps_taken": 40,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:E"
+    },
+    "battery": 46,
+    "time_remaining": 40,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 8,
+          "y": 5,
+          "prob": 0.236739
+        },
+        {
+          "x": 5,
+          "y": 8,
+          "prob": 0.232913
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "prob": 0.232908
+        },
+        {
+          "x": 8,
+          "y": 6,
+          "prob": 0.029268
+        },
+        {
+          "x": 8,
+          "y": 7,
+          "prob": 0.029152
+        }
+      ],
+      "entropy": 2.174
+    },
+    "decision": "E",
+    "reasoning": "Moving E to (7,7): belief mass=1.0000, [toward target], target=(8,8) p=0.3452. [REPLAN: belief target shifted \u2014 resetting loop penalty.]"
+  },
+  {
+    "step": 41,
+    "action": "N",
+    "observation": {
+      "agent_pos": [
+        7,
+        6
+      ],
+      "battery": 44,
+      "time_remaining": 39,
+      "steps_taken": 41,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:N"
+    },
+    "battery": 44,
+    "time_remaining": 39,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 5,
+          "y": 8,
+          "prob": 0.274432
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "prob": 0.274427
+        },
+        {
+          "x": 8,
+          "y": 5,
+          "prob": 0.139471
+        },
+        {
+          "x": 6,
+          "y": 8,
+          "prob": 0.034306
+        },
+        {
+          "x": 7,
+          "y": 8,
+          "prob": 0.034305
+        }
+      ],
+      "entropy": 2.1751
+    },
+    "decision": "N",
+    "reasoning": "Moving N to (7,6): belief mass=1.0000, [toward target], target=(8,5) p=0.2367. [REPLAN: belief target shifted \u2014 resetting loop penalty.]"
+  },
+  {
+    "step": 42,
+    "action": "scan",
+    "observation": {
+      "agent_pos": [
+        7,
+        6
+      ],
+      "battery": 39,
+      "time_remaining": 38,
+      "steps_taken": 42,
+      "scan_result": {
+        "clue_strength": 0.7582,
+        "clue_direction": "SW",
+        "eve_detected": true
+      },
+      "event": "scan"
+    },
+    "battery": 39,
+    "time_remaining": 38,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 5,
+          "y": 8,
+          "prob": 0.307991
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "prob": 0.307985
+        },
+        {
+          "x": 8,
+          "y": 5,
+          "prob": 0.156526
+        },
+        {
+          "x": 6,
+          "y": 8,
+          "prob": 0.038501
+        },
+        {
+          "x": 7,
+          "y": 8,
+          "prob": 0.0385
+        }
+      ],
+      "entropy": 1.8623
+    },
+    "decision": "scan",
+    "reasoning": "Scanning from (7,6) [overdue: 5 steps since last scan]: nearby belief mass=0.8899."
+  },
+  {
+    "step": 43,
+    "action": "W",
+    "observation": {
+      "agent_pos": [
+        6,
+        6
+      ],
+      "battery": 37,
+      "time_remaining": 37,
+      "steps_taken": 43,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:W"
+    },
+    "battery": 37,
+    "time_remaining": 37,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 5,
+          "y": 8,
+          "prob": 0.309766
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "prob": 0.309759
+        },
+        {
+          "x": 8,
+          "y": 5,
+          "prob": 0.157428
+        },
+        {
+          "x": 6,
+          "y": 8,
+          "prob": 0.038722
+        },
+        {
+          "x": 7,
+          "y": 8,
+          "prob": 0.038722
+        }
+      ],
+      "entropy": 1.8385
+    },
+    "decision": "W",
+    "reasoning": "Moving W to (6,6): belief mass=1.0000, [toward target], target=(5,8) p=0.3080."
+  },
+  {
+    "step": 44,
+    "action": "S",
+    "observation": {
+      "agent_pos": [
+        6,
+        7
+      ],
+      "battery": 35,
+      "time_remaining": 36,
+      "steps_taken": 44,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:S"
+    },
+    "battery": 35,
+    "time_remaining": 36,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 8,
+          "y": 8,
+          "prob": 0.384712
+        },
+        {
+          "x": 8,
+          "y": 5,
+          "prob": 0.19552
+        },
+        {
+          "x": 5,
+          "y": 8,
+          "prob": 0.19236
+        },
+        {
+          "x": 9,
+          "y": 5,
+          "prob": 0.031192
+        },
+        {
+          "x": 9,
+          "y": 6,
+          "prob": 0.030909
+        }
+      ],
+      "entropy": 1.8433
+    },
+    "decision": "S",
+    "reasoning": "Moving S to (6,7): belief mass=1.0000, [toward target], target=(5,8) p=0.3098."
+  },
+  {
+    "step": 45,
+    "action": "E",
+    "observation": {
+      "agent_pos": [
+        7,
+        7
+      ],
+      "battery": 33,
+      "time_remaining": 35,
+      "steps_taken": 45,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:E"
+    },
+    "battery": 33,
+    "time_remaining": 35,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 8,
+          "y": 5,
+          "prob": 0.257441
+        },
+        {
+          "x": 5,
+          "y": 8,
+          "prob": 0.25328
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "prob": 0.253275
+        },
+        {
+          "x": 9,
+          "y": 5,
+          "prob": 0.04107
+        },
+        {
+          "x": 9,
+          "y": 6,
+          "prob": 0.040698
+        }
+      ],
+      "entropy": 1.8932
+    },
+    "decision": "E",
+    "reasoning": "Moving E to (7,7): belief mass=1.0000, [toward target], target=(8,8) p=0.3847. [REPLAN: belief target shifted \u2014 resetting loop penalty.]"
+  },
+  {
+    "step": 46,
+    "action": "N",
+    "observation": {
+      "agent_pos": [
+        7,
+        6
+      ],
+      "battery": 31,
+      "time_remaining": 34,
+      "steps_taken": 46,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:N"
+    },
+    "battery": 31,
+    "time_remaining": 34,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 5,
+          "y": 8,
+          "prob": 0.296797
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "prob": 0.296791
+        },
+        {
+          "x": 8,
+          "y": 5,
+          "prob": 0.150837
+        },
+        {
+          "x": 9,
+          "y": 5,
+          "prob": 0.048127
+        },
+        {
+          "x": 9,
+          "y": 6,
+          "prob": 0.04769
+        }
+      ],
+      "entropy": 1.8831
+    },
+    "decision": "N",
+    "reasoning": "Moving N to (7,6): belief mass=1.0000, [toward target], target=(8,5) p=0.2574. [REPLAN: belief target shifted \u2014 resetting loop penalty.]"
+  },
+  {
+    "step": 47,
+    "action": "scan",
+    "observation": {
+      "agent_pos": [
+        7,
+        6
+      ],
+      "battery": 26,
+      "time_remaining": 33,
+      "steps_taken": 47,
+      "scan_result": {
+        "clue_strength": 0.6631,
+        "clue_direction": "SW",
+        "eve_detected": true
+      },
+      "event": "scan"
+    },
+    "battery": 26,
+    "time_remaining": 33,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 5,
+          "y": 8,
+          "prob": 0.297498
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "prob": 0.297492
+        },
+        {
+          "x": 8,
+          "y": 5,
+          "prob": 0.151193
+        },
+        {
+          "x": 9,
+          "y": 5,
+          "prob": 0.04824
+        },
+        {
+          "x": 9,
+          "y": 6,
+          "prob": 0.047803
+        }
+      ],
+      "entropy": 1.8672
+    },
+    "decision": "scan",
+    "reasoning": "Scanning from (7,6) [overdue: 4 steps since last scan]: nearby belief mass=0.9976."
+  },
+  {
+    "step": 48,
+    "action": "W",
+    "observation": {
+      "agent_pos": [
+        6,
+        6
+      ],
+      "battery": 24,
+      "time_remaining": 32,
+      "steps_taken": 48,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:W"
+    },
+    "battery": 24,
+    "time_remaining": 32,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 5,
+          "y": 8,
+          "prob": 0.298445
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "prob": 0.298439
+        },
+        {
+          "x": 8,
+          "y": 5,
+          "prob": 0.151674
+        },
+        {
+          "x": 9,
+          "y": 5,
+          "prob": 0.048394
+        },
+        {
+          "x": 9,
+          "y": 6,
+          "prob": 0.047955
+        }
+      ],
+      "entropy": 1.852
+    },
+    "decision": "W",
+    "reasoning": "Moving W to (6,6): belief mass=1.0000, [toward target], target=(5,8) p=0.2975."
+  },
+  {
+    "step": 49,
+    "action": "S",
+    "observation": {
+      "agent_pos": [
+        6,
+        7
+      ],
+      "battery": 22,
+      "time_remaining": 31,
+      "steps_taken": 49,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:S"
+    },
+    "battery": 22,
+    "time_remaining": 31,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 8,
+          "y": 8,
+          "prob": 0.358902
+        },
+        {
+          "x": 8,
+          "y": 5,
+          "prob": 0.182403
+        },
+        {
+          "x": 5,
+          "y": 8,
+          "prob": 0.179454
+        },
+        {
+          "x": 9,
+          "y": 5,
+          "prob": 0.058198
+        },
+        {
+          "x": 9,
+          "y": 6,
+          "prob": 0.057671
+        }
+      ],
+      "entropy": 1.8721
+    },
+    "decision": "S",
+    "reasoning": "Moving S to (6,7): belief mass=1.0000, [toward target], target=(5,8) p=0.2984."
+  },
+  {
+    "step": 50,
+    "action": "E",
+    "observation": {
+      "agent_pos": [
+        7,
+        7
+      ],
+      "battery": 20,
+      "time_remaining": 30,
+      "steps_taken": 50,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:E"
+    },
+    "battery": 20,
+    "time_remaining": 30,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 8,
+          "y": 5,
+          "prob": 0.228552
+        },
+        {
+          "x": 5,
+          "y": 8,
+          "prob": 0.224858
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "prob": 0.224853
+        },
+        {
+          "x": 9,
+          "y": 5,
+          "prob": 0.072923
+        },
+        {
+          "x": 9,
+          "y": 6,
+          "prob": 0.072262
+        }
+      ],
+      "entropy": 1.9387
+    },
+    "decision": "E",
+    "reasoning": "Moving E to (7,7): belief mass=1.0000, [toward target], target=(8,8) p=0.3589. [REPLAN: belief target shifted \u2014 resetting loop penalty.]"
+  },
+  {
+    "step": 51,
+    "action": "N",
+    "observation": {
+      "agent_pos": [
+        7,
+        6
+      ],
+      "battery": 18,
+      "time_remaining": 29,
+      "steps_taken": 51,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:N"
+    },
+    "battery": 18,
+    "time_remaining": 29,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 5,
+          "y": 8,
+          "prob": 0.256167
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "prob": 0.256162
+        },
+        {
+          "x": 8,
+          "y": 5,
+          "prob": 0.130188
+        },
+        {
+          "x": 9,
+          "y": 5,
+          "prob": 0.083077
+        },
+        {
+          "x": 9,
+          "y": 6,
+          "prob": 0.082323
+        }
+      ],
+      "entropy": 1.936
+    },
+    "decision": "N",
+    "reasoning": "Moving N to (7,6): belief mass=1.0000, [toward target], target=(8,5) p=0.2286. [REPLAN: belief target shifted \u2014 resetting loop penalty.]"
+  },
+  {
+    "step": 52,
+    "action": "W",
+    "observation": {
+      "agent_pos": [
+        6,
+        6
+      ],
+      "battery": 16,
+      "time_remaining": 28,
+      "steps_taken": 52,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "moved:W"
+    },
+    "battery": 16,
+    "time_remaining": 28,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 5,
+          "y": 8,
+          "prob": 0.256607
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "prob": 0.256602
+        },
+        {
+          "x": 8,
+          "y": 5,
+          "prob": 0.130412
+        },
+        {
+          "x": 9,
+          "y": 5,
+          "prob": 0.08322
+        },
+        {
+          "x": 9,
+          "y": 6,
+          "prob": 0.082465
+        }
+      ],
+      "entropy": 1.9269
+    },
+    "decision": "W",
+    "reasoning": "Moving W to (6,6): belief mass=1.0000, [toward target], target=(5,8) p=0.2562."
+  },
+  {
+    "step": 53,
+    "action": "scan",
+    "observation": {
+      "agent_pos": [
+        6,
+        6
+      ],
+      "battery": 11,
+      "time_remaining": 27,
+      "steps_taken": 53,
+      "scan_result": {
+        "clue_strength": 0.7656,
+        "clue_direction": "W",
+        "eve_detected": true
+      },
+      "event": "scan"
+    },
+    "battery": 11,
+    "time_remaining": 27,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 5,
+          "y": 8,
+          "prob": 0.381138
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "prob": 0.38113
+        },
+        {
+          "x": 8,
+          "y": 5,
+          "prob": 0.1937
+        },
+        {
+          "x": 6,
+          "y": 8,
+          "prob": 0.011911
+        },
+        {
+          "x": 7,
+          "y": 8,
+          "prob": 0.011911
+        }
+      ],
+      "entropy": 1.2775
+    },
+    "decision": "scan",
+    "reasoning": "Scanning from (6,6) [overdue: 5 steps since last scan]: nearby belief mass=0.6700."
+  },
+  {
+    "step": 54,
+    "action": "end_mission",
+    "observation": {
+      "agent_pos": [
+        6,
+        6
+      ],
+      "battery": 11,
+      "time_remaining": 27,
+      "steps_taken": 53,
+      "scan_result": {
+        "clue_strength": 0.0,
+        "clue_direction": null,
+        "eve_detected": false
+      },
+      "event": "mission_ended"
+    },
+    "battery": 11,
+    "time_remaining": 27,
+    "belief_summary": {
+      "top_cells": [
+        {
+          "x": 5,
+          "y": 8,
+          "prob": 0.381138
+        },
+        {
+          "x": 8,
+          "y": 8,
+          "prob": 0.38113
+        },
+        {
+          "x": 8,
+          "y": 5,
+          "prob": 0.1937
+        },
+        {
+          "x": 6,
+          "y": 8,
+          "prob": 0.011911
+        },
+        {
+          "x": 7,
+          "y": 8,
+          "prob": 0.011911
+        }
+      ],
+      "entropy": 1.2775
+    },
+    "decision": "end_mission",
+    "reasoning": "No safe action available \u2014 ending mission."
+  }
+]

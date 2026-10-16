@@ -1,0 +1,361 @@
+{
+  "config": "configs/sample_hard.yaml",
+  "base_seed": 99,
+  "num_runs": 50,
+  "success_rate": 0.78,
+  "avg_steps": 49.54,
+  "avg_battery_remaining": 51.46,
+  "avg_confidence": 0.800728,
+  "runs": [
+    {
+      "seed": 99,
+      "found_eve": true,
+      "steps": 99,
+      "battery_remaining": 105,
+      "confidence": 0.999776
+    },
+    {
+      "seed": 100,
+      "found_eve": false,
+      "steps": 85,
+      "battery_remaining": 0,
+      "confidence": 0.462497
+    },
+    {
+      "seed": 101,
+      "found_eve": true,
+      "steps": 98,
+      "battery_remaining": 113,
+      "confidence": 0.999776
+    },
+    {
+      "seed": 102,
+      "found_eve": true,
+      "steps": 51,
+      "battery_remaining": 17,
+      "confidence": 0.999776
+    },
+    {
+      "seed": 103,
+      "found_eve": true,
+      "steps": 36,
+      "battery_remaining": 113,
+      "confidence": 0.999776
+    },
+    {
+      "seed": 104,
+      "found_eve": true,
+      "steps": 29,
+      "battery_remaining": 103,
+      "confidence": 0.999776
+    },
+    {
+      "seed": 105,
+      "found_eve": false,
+      "steps": 79,
+      "battery_remaining": 26,
+      "confidence": 0.044366
+    },
+    {
+      "seed": 106,
+      "found_eve": true,
+      "steps": 43,
+      "battery_remaining": 41,
+      "confidence": 0.999776
+    },
+    {
+      "seed": 107,
+      "found_eve": true,
+      "steps": 48,
+      "battery_remaining": 21,
+      "confidence": 0.999776
+    },
+    {
+      "seed": 108,
+      "found_eve": false,
+      "steps": 51,
+      "battery_remaining": 17,
+      "confidence": 0.016978
+    },
+    {
+      "seed": 109,
+      "found_eve": true,
+      "steps": 42,
+      "battery_remaining": 49,
+      "confidence": 0.999776
+    },
+    {
+      "seed": 110,
+      "found_eve": false,
+      "steps": 50,
+      "battery_remaining": 20,
+      "confidence": 0.017051
+    },
+    {
+      "seed": 111,
+      "found_eve": true,
+      "steps": 42,
+      "battery_remaining": 49,
+      "confidence": 0.999776
+    },
+    {
+      "seed": 112,
+      "found_eve": true,
+      "steps": 42,
+      "battery_remaining": 49,
+      "confidence": 0.999776
+    },
+    {
+      "seed": 113,
+      "found_eve": true,
+      "steps": 34,
+      "battery_remaining": 83,
+      "confidence": 0.999776
+    },
+    {
+      "seed": 114,
+      "found_eve": false,
+      "steps": 59,
+      "battery_remaining": 0,
+      "confidence": 0.016866
+    },
+    {
+      "seed": 115,
+      "found_eve": true,
+      "steps": 49,
+      "battery_remaining": 23,
+      "confidence": 0.999776
+    },
+    {
+      "seed": 116,
+      "found_eve": true,
+      "steps": 34,
+      "battery_remaining": 83,
+      "confidence": 0.999776
+    },
+    {
+      "seed": 117,
+      "found_eve": true,
+      "steps": 40,
+      "battery_remaining": 101,
+      "confidence": 0.999776
+    },
+    {
+      "seed": 118,
+      "found_eve": true,
+      "steps": 39,
+      "battery_remaining": 63,
+      "confidence": 0.999776
+    },
+    {
+      "seed": 119,
+      "found_eve": false,
+      "steps": 49,
+      "battery_remaining": 23,
+      "confidence": 0.012199
+    },
+    {
+      "seed": 120,
+      "found_eve": true,
+      "steps": 42,
+      "battery_remaining": 49,
+      "confidence": 0.999776
+    },
+    {
+      "seed": 121,
+      "found_eve": false,
+      "steps": 50,
+      "battery_remaining": 20,
+      "confidence": 0.02106
+    },
+    {
+      "seed": 122,
+      "found_eve": true,
+      "steps": 40,
+      "battery_remaining": 55,
+      "confidence": 0.999776
+    },
+    {
+      "seed": 123,
+      "found_eve": false,
+      "steps": 49,
+      "battery_remaining": 23,
+      "confidence": 0.021213
+    },
+    {
+      "seed": 124,
+      "found_eve": true,
+      "steps": 60,
+      "battery_remaining": 103,
+      "confidence": 0.999776
+    },
+    {
+      "seed": 125,
+      "found_eve": true,
+      "steps": 42,
+      "battery_remaining": 49,
+      "confidence": 0.999776
+    },
+    {
+      "seed": 126,
+      "found_eve": false,
+      "steps": 86,
+      "battery_remaining": 0,
+      "confidence": 0.38255
+    },
+    {
+      "seed": 127,
+      "found_eve": true,
+      "steps": 34,
+      "battery_remaining": 83,
+      "confidence": 0.999776
+    },
+    {
+      "seed": 128,
+      "found_eve": true,
+      "steps": 52,
+      "battery_remaining": 9,
+      "confidence": 0.999776
+    },
+    {
+      "seed": 129,
+      "found_eve": true,
+      "steps": 70,
+      "battery_remaining": 63,
+      "confidence": 0.999776
+    },
+    {
+      "seed": 130,
+      "found_eve": true,
+      "steps": 44,
+      "battery_remaining": 43,
+      "confidence": 0.999776
+    },
+    {
+      "seed": 131,
+      "found_eve": false,
+      "steps": 43,
+      "battery_remaining": 41,
+      "confidence": 0.031677
+    },
+    {
+      "seed": 132,
+      "found_eve": false,
+      "steps": 59,
+      "battery_remaining": 0,
+      "confidence": 0.018702
+    },
+    {
+      "seed": 133,
+      "found_eve": true,
+      "steps": 43,
+      "battery_remaining": 41,
+      "confidence": 0.999776
+    },
+    {
+      "seed": 134,
+      "found_eve": true,
+      "steps": 58,
+      "battery_remaining": 109,
+      "confidence": 0.999776
+    },
+    {
+      "seed": 135,
+      "found_eve": true,
+      "steps": 29,
+      "battery_remaining": 103,
+      "confidence": 0.999776
+    },
+    {
+      "seed": 136,
+      "found_eve": true,
+      "steps": 29,
+      "battery_remaining": 103,
+      "confidence": 0.999776
+    },
+    {
+      "seed": 137,
+      "found_eve": true,
+      "steps": 40,
+      "battery_remaining": 55,
+      "confidence": 0.999776
+    },
+    {
+      "seed": 138,
+      "found_eve": true,
+      "steps": 42,
+      "battery_remaining": 49,
+      "confidence": 0.999776
+    },
+    {
+      "seed": 139,
+      "found_eve": true,
+      "steps": 47,
+      "battery_remaining": 29,
+      "confidence": 0.999776
+    },
+    {
+      "seed": 140,
+      "found_eve": true,
+      "steps": 43,
+      "battery_remaining": 41,
+      "confidence": 0.999776
+    },
+    {
+      "seed": 141,
+      "found_eve": true,
+      "steps": 70,
+      "battery_remaining": 99,
+      "confidence": 0.999776
+    },
+    {
+      "seed": 142,
+      "found_eve": true,
+      "steps": 44,
+      "battery_remaining": 43,
+      "confidence": 0.999776
+    },
+    {
+      "seed": 143,
+      "found_eve": true,
+      "steps": 42,
+      "battery_remaining": 49,
+      "confidence": 0.999776
+    },
+    {
+      "seed": 144,
+      "found_eve": true,
+      "steps": 49,
+      "battery_remaining": 23,
+      "confidence": 0.999776
+    },
+    {
+      "seed": 145,
+      "found_eve": true,
+      "steps": 51,
+      "battery_remaining": 17,
+      "confidence": 0.999776
+    },
+    {
+      "seed": 146,
+      "found_eve": true,
+      "steps": 34,
+      "battery_remaining": 83,
+      "confidence": 0.999776
+    },
+    {
+      "seed": 147,
+      "found_eve": true,
+      "steps": 42,
+      "battery_remaining": 49,
+      "confidence": 0.999776
+    },
+    {
+      "seed": 148,
+      "found_eve": true,
+      "steps": 44,
+      "battery_remaining": 43,
+      "confidence": 0.999776
+    }
+  ]
+}

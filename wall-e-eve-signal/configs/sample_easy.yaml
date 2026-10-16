@@ -1,0 +1,50 @@
+# sample_easy.yaml
+# Easy 10x10 mission — WALL-E searching for EVE
+# Seed: 42, wide-open grid with few obstacles
+
+map:
+  width: 10
+  height: 10
+  seed: 42
+  obstacles:
+    - [2, 3]
+    - [2, 4]
+    - [5, 5]
+    - [6, 5]
+
+eve: [7, 8]
+
+initial_signal:
+  direction: 'NE'
+  strength: 0.8
+  timestamp: 0
+
+resources:
+  battery: 150
+  time_limit: 80
+  move_cost: 2
+  scan_cost: 5
+  recharge_cost: 1
+  recharge_amount: 50
+  recharge_stations:
+    - [1, 1]
+    - [8, 2]
+    - [5, 9]
+
+clues:
+  - position: [6, 7]
+    type: 'energy_trace'
+    strength: 0.7
+  - position: [7, 6]
+    type: 'sound'
+    strength: 0.5
+  - position: [8, 8]
+    type: 'heat_signature'
+    strength: 0.8
+  - position: [6, 9]
+    type: 'movement'
+    strength: 0.6
+
+sensor_noise: 0.05
+
+decoys: []
